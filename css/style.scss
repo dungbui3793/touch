@@ -50,7 +50,7 @@ a:hover {
 }
 
 .topBanner {
-  background: url("../img/section-01-bg.jpg") top center;
+  background: url("../img/section-01-bg.jpg") top left;
   background-size: cover;
   height: 600px;
   position: relative;
@@ -100,12 +100,12 @@ a:hover {
     }
 
     .bannerBtnBlock {
-      display: flex;
+      @include flex();
       justify-content: center;
     }
 
     .bannerBtn {
-      display: flex;
+      @include flex();
       justify-content: center;
       flex-direction: column;
       width: 320px;
@@ -207,7 +207,7 @@ a:hover {
   background: url("../img/section-02-bg.jpg") center center;
   background-size: cover;
   height: 600px;
-  display: flex;
+  @include flex();
   align-items: center;
   font-family: $font-KozGoPro-medium;
   color: #fff;
@@ -289,7 +289,7 @@ a:hover {
       height: 575px;
       margin-right: 0.5%;
       background-size: cover;
-      display: inline-flex;
+      @include inline-flex();
       justify-content: space-between;
       align-items: flex-end;
       font-family: $font-Heisei;
@@ -319,7 +319,7 @@ a:hover {
         font-size: 1.625rem;
         @media #{$info-tablet} {
           height: 100%;
-          display: flex;
+          @include flex();
           flex-direction: column;
           justify-content: center;
         }
@@ -337,13 +337,14 @@ a:hover {
         width: 85px;
         height: 85px;
         border-radius: 100%;
-        display: inline-flex;
+        @include inline-flex();
         justify-content: center;
         align-items: center;
         flex-direction: column;
         background-color: #e7af00;
         color: #231815;
         line-height: 1;
+        flex-shrink: 0;
         @media #{$info-phone} {
           width: 65px;
           height: 65px;
@@ -434,7 +435,7 @@ a:hover {
         position: absolute;
         right: 40px;
         top: 50%;
-        transform: translateY(-50%);
+        @include css3-prefix(transform, translateY(-50%));
         @media #{$info-phone} {
           border-top: 9px solid transparent;
           border-bottom: 9px solid transparent;
@@ -450,7 +451,7 @@ a:hover {
   background: url("../img/section-03-bg.jpg") center center;
   background-size: cover;
   height: 600px;
-  display: flex;
+  @include flex();
   align-items: center;
   font-family: $font-KozGoPro-medium;
   color: #fff;
@@ -571,7 +572,7 @@ a:hover {
     padding-top: 27px;
   }
   .sectionDetailHead {
-    display: flex;
+    @include flex();
     justify-content: center;
     align-items: center;
     text-align: left;
@@ -584,7 +585,7 @@ a:hover {
       padding: 0 10px;
     }
     .block_left {
-      display: inline-flex;
+      @include inline-flex();
       flex-direction: row;
       align-items: center;
       margin-right: 6px;
@@ -598,6 +599,9 @@ a:hover {
     }
     .block_right {
       position: relative;
+      img {
+        cursor: pointer;
+      }
       @media #{$info-tablet} {
         img {
           width: 250px;
@@ -618,7 +622,7 @@ a:hover {
       width: 105px;
       height: 105px;
       line-height: 105px;
-      display: inline-flex;
+      @include inline-flex();
       align-items: center;
       justify-content: center;
       margin-right: 15px;
@@ -642,7 +646,7 @@ a:hover {
       width: 85px;
       height: 85px;
       border-radius: 100%;
-      display: inline-flex;
+      @include inline-flex();
       justify-content: center;
       align-items: center;
       flex-direction: column;
@@ -669,7 +673,7 @@ a:hover {
   }
 
   .sectionDetailList {
-    display: flex;
+    @include flex();
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -686,7 +690,7 @@ a:hover {
       padding-left: 25px;
     }
     li {
-      display: inline-flex;
+      @include inline-flex();
       justify-content: flex-start;
       align-items: center;
       text-align: left;
@@ -707,7 +711,7 @@ a:hover {
         height: 82px;
         right: -42px;
         top: 50%;
-        transform: translateY(-50%);
+        @include css3-prefix(transform, translateY(-50%));
         @media #{$info-phone} {
           background-image: url("../img/icon-next-sp.png");
           width: 234px;
@@ -730,13 +734,14 @@ a:hover {
         border: 5px solid #000;
         font-size: 2.5rem;
         text-align: center;
-        line-height: 48px;
         margin-right: 12px;
+        @include inline-flex();
+        justify-content: center;
+        align-items: center;
         @media #{$info-phone} {
           width: 40px;
           height: 40px;
           border: 3px solid #000;
-          line-height: 34px;
         }
       }
     }
@@ -787,7 +792,7 @@ a:hover {
       margin-right: 27px;
     }
     .detailBtn02 {
-      display: inline-flex;
+      @include inline-flex();
       width: 455px;
       height: 155px;
       color: #eaffff;
@@ -911,7 +916,7 @@ a:hover {
     position: relative;
     background-size: cover;
     font-size: 2.5rem;
-    display: flex;
+    @include flex();
     flex-direction: column;
     text-align: right;
     justify-content: center;
@@ -939,6 +944,10 @@ a:hover {
       border-radius: 8px;
       &.visible-xs {
         display: flex !important;
+        display: -webkit-box !important;
+        display: -moz-box !important;
+        display: -ms-flexbox !important;
+        display: -webkit-flex !important;
       }
       span {
         display: block;
@@ -973,7 +982,7 @@ a:hover {
   .detailBtn04 {
     width: 445px;
     height: 130px;
-    display: flex;
+    @include flex();
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -1007,7 +1016,7 @@ a:hover {
       height: 0;
       border-top: 21px solid transparent;
       border-bottom: 21px solid transparent;
-      border-left: 21px solid #eaffff;
+      border-left: 21px solid #fff;
       position: absolute;
       right: 27px;
       top: 50%;
@@ -1015,7 +1024,7 @@ a:hover {
       @media #{$info-phone} {
         border-top: 10px solid transparent;
         border-bottom: 10px solid transparent;
-        border-left: 10px solid #eaffff;
+        border-left: 10px solid #fff;
         right: 10px;
       }
     }
@@ -1026,7 +1035,7 @@ a:hover {
     border: 12px solid #000;
     padding: 80px 45px;
     position: relative;
-    display: flex;
+    @include flex();
     flex-direction: row;
     justify-content: space-around;
     @media #{$info-tablet} {
@@ -1039,7 +1048,7 @@ a:hover {
     }
     .col_left, .col_right {
       width: 47%;
-      display: flex;
+      @include flex();
       justify-content: center;
       flex-direction: column;
       @media #{$info-tablet} {
@@ -1449,7 +1458,7 @@ a:hover {
 
   .modalBtnWrap {
     font-family: $font-KozGoPro-heavy;
-    display: flex;
+    @include flex();
     justify-content: space-around;
     margin-top: 30px;
     @media #{$info-tablet} {
@@ -1464,7 +1473,7 @@ a:hover {
       margin-top: -4px;
     }
     .detailBtn02 {
-      display: inline-flex;
+      @include inline-flex();
       color: #eaffff;
       background-color: #000;
       align-items: center;
@@ -1659,9 +1668,11 @@ a:hover {
     }
     p {
       margin-bottom: 23px;
+      margin-left: 17px;
       &.bold {
         font-family: $font-KozGoPro-bold;
         margin-bottom: 0;
+        margin-left: 0;
       }
     }
   }
@@ -1753,9 +1764,11 @@ a:hover {
     }
     p {
       margin-bottom: 23px;
+      margin-left: 17px;
       &.bold {
         font-family: $font-KozGoPro-bold;
         margin-bottom: 0;
+        margin-left: 0;
       }
     }
   }
@@ -1830,11 +1843,19 @@ a:hover {
     }
     p {
       margin-bottom: 23px;
+      margin-left: 17px;
       @media #{$info-phone} {
         margin-bottom: 10px;
       }
+      span {
+        margin-left: -15px;
+      }
       &.bold {
         font-family: $font-KozGoPro-bold;
+        margin-left: 0;
+      }
+      &.subTitle {
+        margin-left: 0;
       }
     }
   }
@@ -1880,6 +1901,7 @@ a:hover {
         background-color: #000;
       }
       label {
+        cursor: pointer;
         &:before {
           content: "";
           width: 40px;
@@ -1909,10 +1931,21 @@ a:hover {
     line-height: 85px;
     font-size: 2.18rem;
     position: relative;
-    background-color: #000;
+    background-color: darkgray;
     color: #fff;
     border-radius: 15px;
     font-family: $font-KozGoPro-heavy;
+    cursor: no-drop;
+    &:hover {
+      opacity: 1;
+    }
+    &.active {
+      background-color: #000;
+      cursor: pointer;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
     @media #{$info-phone} {
       width: 100%;
       height: 50px;
@@ -2023,18 +2056,26 @@ a:hover {
     }
     p {
       margin-bottom: 23px;
+      margin-left: 17px;
       @media #{$info-phone} {
         margin-bottom: 10px;
       }
+      span {
+        margin-left: -15px;
+      }
       &.bold {
         font-family: $font-KozGoPro-bold;
+        margin-left: 0;
+      }
+      &.subTitle {
+        margin-left: 0;
       }
     }
   }
 
   .modalBtnWrap {
     font-family: $font-KozGoPro-heavy;
-    display: flex;
+    @include flex();
     justify-content: space-around;
     padding-top: 60px;
     border-top: 10px solid #d79e00;
@@ -2052,7 +2093,7 @@ a:hover {
       margin-top: -4px;
     }
     .detailBtn02 {
-      display: inline-flex;
+      @include inline-flex();
       color: #eaffff;
       background-color: #000;
       align-items: center;
@@ -2309,7 +2350,7 @@ a:hover {
     left: 30px;
     right: 30px;
     bottom: -20px;
-    display: flex;
+    @include flex();
     justify-content: center;
     align-items: center;
     background-color: rgba(0,0,0,0.8);
@@ -2354,4 +2395,114 @@ iframe {
   border: none;
   overflow: hidden;
   margin: 0;
+}
+
+.nativeAndroid {
+  .topBanner .bannerTextBlock .bannerBtn {
+    align-items: center;
+    .italic {
+      margin-top: 10px;
+    }
+  }
+
+  .topBanner .bannerTextBlock .bannerBtn.bannerBtn02 .imgSp {
+    margin-bottom: 5px;
+    margin-top: -5px;
+  }
+
+  .sectionTime .timeHeadBlock .timeHeadBlock02 {
+    margin-top: 20px;
+  }
+
+  .sectionTime .timeTour .tourBlock .tourCir {
+    padding-top: 10px;
+  }
+
+  .sectionTime .timeBtnWrap .btnTerm {
+    padding-top: 7px;
+  }
+
+  .sectionInfo03 > img {
+    margin-bottom: 15px;
+  }
+
+  .sectionDetail .sectionDetailList li {
+    padding-bottom: 20px;
+  }
+  .sectionDetail .sectionDetailList li .liCir {
+    padding-top: 20px;
+  }
+
+  .sectionDetail .sectionDetailTitle {
+    margin-top: 20px;
+  }
+
+  .sectionDetail .sectionDetailLinkWrap .detailBtn {
+    padding-top: 15px;
+  }
+
+  .sectionDetail .sectionDetailLinkWrap02 .detailBtn02 .detailBtn02Cir {
+    padding-top: 10px;
+  }
+
+  .sectionDetail .sectionDetailLinkWrap02 .detailBtn02 {
+    padding-top: 25px;
+    font-size: 1.7rem;
+    .detailBtn02Cir {
+      margin-right: 5px;
+      margin-top: -25px;
+    }
+  }
+  .sectionDetail .sectionDetailLinkWrap02 .detailBtn02.detailBtn02_02 small {
+    font-size: 0.8rem;
+    bottom: 0;
+  }
+
+  .sectionDetail .detailBtn03.visible-xs {
+    padding-top: 10px;
+  }
+
+  .sectionDetail .detailBtn04 {
+    padding-top: 10px;
+  }
+
+  .sectionDetail .sectionDetailHead .headCir {
+    padding-top: 15px;
+  }
+
+  .tourBlockModal h2 {
+    margin-top: 20px;
+  }
+  .tourBlockModal .modalBtn {
+    padding-top: 7px;
+  }
+
+  .rulesForm .formBtn {
+    padding-top: 7px;
+  }
+
+  .snowPeak h2 {
+    margin-top: 15px;
+    > span {
+      margin-top: 10px;
+    }
+  }
+
+  .snowPeak .modalBtnWrap .detailBtn02 {
+    font-size: 1.5rem;
+    padding-top: 25px;
+    .detailBtn02Cir {
+      margin-top: -25px;
+      padding-top: 8px;
+    }
+  }
+
+  .rulesRfrForm .modalBtnWrap .detailBtn02 {
+    font-size: 1.5rem;
+    padding-top: 25px;
+    .detailBtn02Cir {
+      margin-top: -25px;
+      padding-top: 8px;
+    }
+  }
 }

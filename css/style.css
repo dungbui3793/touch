@@ -69,7 +69,7 @@ a:hover {
   padding-left: 10px; }
 
 .topBanner {
-  background: url("../img/section-01-bg.jpg") top center;
+  background: url("../img/section-01-bg.jpg") top left;
   background-size: cover;
   height: 600px;
   position: relative; }
@@ -116,9 +116,17 @@ a:hover {
           margin-left: auto;
           margin-bottom: 12px; } }
     .topBanner .bannerTextBlock .bannerBtnBlock {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
       display: flex;
       justify-content: center; }
     .topBanner .bannerTextBlock .bannerBtn {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
       display: flex;
       justify-content: center;
       flex-direction: column;
@@ -209,6 +217,10 @@ a:hover {
   background: url("../img/section-02-bg.jpg") center center;
   background-size: cover;
   height: 600px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   align-items: center;
   font-family: "KozGoPro-Medium-AlphaNum";
@@ -287,6 +299,10 @@ a:hover {
       height: 575px;
       margin-right: 0.5%;
       background-size: cover;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-inline-flexbox;
+      display: -webkit-inline-flex;
       display: inline-flex;
       justify-content: space-between;
       align-items: flex-end;
@@ -317,6 +333,10 @@ a:hover {
         @media only screen and (max-width: 800px) {
           .sectionTime .timeTour .tourBlock .tourIntro {
             height: 100%;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
             display: flex;
             flex-direction: column;
             justify-content: center; } }
@@ -329,13 +349,18 @@ a:hover {
         width: 85px;
         height: 85px;
         border-radius: 100%;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-inline-flexbox;
+        display: -webkit-inline-flex;
         display: inline-flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         background-color: #e7af00;
         color: #231815;
-        line-height: 1; }
+        line-height: 1;
+        flex-shrink: 0; }
         @media only screen and (max-width: 767px) {
           .sectionTime .timeTour .tourBlock .tourCir {
             width: 65px;
@@ -413,6 +438,11 @@ a:hover {
         position: absolute;
         right: 40px;
         top: 50%;
+        -webkit-transform: translateY(-50%);
+        -khtml-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
         transform: translateY(-50%); }
         @media only screen and (max-width: 767px) {
           .sectionTime .timeBtnWrap .btnTerm .arrow {
@@ -425,6 +455,10 @@ a:hover {
   background: url("../img/section-03-bg.jpg") center center;
   background-size: cover;
   height: 600px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   align-items: center;
   font-family: "KozGoPro-Medium-AlphaNum";
@@ -535,6 +569,10 @@ a:hover {
       padding-bottom: 45px;
       padding-top: 27px; } }
   .sectionDetail .sectionDetailHead {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -548,6 +586,10 @@ a:hover {
       .sectionDetail .sectionDetailHead {
         padding: 0 10px; } }
     .sectionDetail .sectionDetailHead .block_left {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-inline-flexbox;
+      display: -webkit-inline-flex;
       display: inline-flex;
       flex-direction: row;
       align-items: center;
@@ -560,6 +602,8 @@ a:hover {
         width: 80%; }
     .sectionDetail .sectionDetailHead .block_right {
       position: relative; }
+      .sectionDetail .sectionDetailHead .block_right img {
+        cursor: pointer; }
       @media only screen and (max-width: 800px) {
         .sectionDetail .sectionDetailHead .block_right img {
           width: 250px; } }
@@ -576,6 +620,10 @@ a:hover {
       width: 105px;
       height: 105px;
       line-height: 105px;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-inline-flexbox;
+      display: -webkit-inline-flex;
       display: inline-flex;
       align-items: center;
       justify-content: center;
@@ -597,6 +645,10 @@ a:hover {
       width: 85px;
       height: 85px;
       border-radius: 100%;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-inline-flexbox;
+      display: -webkit-inline-flex;
       display: inline-flex;
       justify-content: center;
       align-items: center;
@@ -618,6 +670,10 @@ a:hover {
     font-size: 3rem;
     margin-bottom: 42px; }
   .sectionDetail .sectionDetailList {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -635,6 +691,10 @@ a:hover {
       .sectionDetail .sectionDetailList {
         padding-left: 25px; } }
     .sectionDetail .sectionDetailList li {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-inline-flexbox;
+      display: -webkit-inline-flex;
       display: inline-flex;
       justify-content: flex-start;
       align-items: center;
@@ -655,6 +715,11 @@ a:hover {
         height: 82px;
         right: -42px;
         top: 50%;
+        -webkit-transform: translateY(-50%);
+        -khtml-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
         transform: translateY(-50%); }
         @media only screen and (max-width: 767px) {
           .sectionDetail .sectionDetailList li:after {
@@ -676,14 +741,19 @@ a:hover {
         border: 5px solid #000;
         font-size: 2.5rem;
         text-align: center;
-        line-height: 48px;
-        margin-right: 12px; }
+        margin-right: 12px;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-inline-flexbox;
+        display: -webkit-inline-flex;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center; }
         @media only screen and (max-width: 767px) {
           .sectionDetail .sectionDetailList li .liCir {
             width: 40px;
             height: 40px;
-            border: 3px solid #000;
-            line-height: 34px; } }
+            border: 3px solid #000; } }
   .sectionDetail .sectionDetailLinkWrap {
     margin-bottom: 20px; }
     .sectionDetail .sectionDetailLinkWrap .detailBtn {
@@ -730,6 +800,10 @@ a:hover {
         margin-left: 27px;
         margin-right: 27px; } }
     .sectionDetail .sectionDetailLinkWrap02 .detailBtn02 {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-inline-flexbox;
+      display: -webkit-inline-flex;
       display: inline-flex;
       width: 455px;
       height: 155px;
@@ -846,6 +920,10 @@ a:hover {
     position: relative;
     background-size: cover;
     font-size: 2.5rem;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     flex-direction: column;
     text-align: right;
@@ -878,7 +956,11 @@ a:hover {
         margin-bottom: 20px;
         border-radius: 8px; }
         .sectionDetail .detailBtn03.visible-xs {
-          display: flex !important; }
+          display: flex !important;
+          display: -webkit-box !important;
+          display: -moz-box !important;
+          display: -ms-flexbox !important;
+          display: -webkit-flex !important; }
         .sectionDetail .detailBtn03 span {
           display: block; }
           .sectionDetail .detailBtn03 span small {
@@ -911,6 +993,10 @@ a:hover {
   .sectionDetail .detailBtn04 {
     width: 445px;
     height: 130px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -943,7 +1029,7 @@ a:hover {
       height: 0;
       border-top: 21px solid transparent;
       border-bottom: 21px solid transparent;
-      border-left: 21px solid #eaffff;
+      border-left: 21px solid #fff;
       position: absolute;
       right: 27px;
       top: 50%;
@@ -957,13 +1043,17 @@ a:hover {
         .sectionDetail .detailBtn04:after {
           border-top: 10px solid transparent;
           border-bottom: 10px solid transparent;
-          border-left: 10px solid #eaffff;
+          border-left: 10px solid #fff;
           right: 10px; } }
   .sectionDetail .sectionDetailNews {
     margin: 0 75px;
     border: 12px solid #000;
     padding: 80px 45px;
     position: relative;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     flex-direction: row;
     justify-content: space-around; }
@@ -977,6 +1067,10 @@ a:hover {
         padding: 69px 40px 35px; } }
     .sectionDetail .sectionDetailNews .col_left, .sectionDetail .sectionDetailNews .col_right {
       width: 47%;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
       display: flex;
       justify-content: center;
       flex-direction: column; }
@@ -1309,6 +1403,10 @@ a:hover {
     line-height: 1.6; }
   .snowPeak .modalBtnWrap {
     font-family: "KozGoPro-Heavy-AlphaNum";
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     justify-content: space-around;
     margin-top: 30px; }
@@ -1323,6 +1421,10 @@ a:hover {
       font-size: 92%;
       margin-top: -4px; }
     .snowPeak .modalBtnWrap .detailBtn02 {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-inline-flexbox;
+      display: -webkit-inline-flex;
       display: inline-flex;
       color: #eaffff;
       background-color: #000;
@@ -1495,10 +1597,12 @@ a:hover {
         font-size: 1rem;
         overflow: hidden; } }
     .questionForm .formBody p {
-      margin-bottom: 23px; }
+      margin-bottom: 23px;
+      margin-left: 17px; }
       .questionForm .formBody p.bold {
         font-family: "KozGoPro-Bold-AlphaNum";
-        margin-bottom: 0; }
+        margin-bottom: 0;
+        margin-left: 0; }
   .questionForm .scrollTopPopup {
     cursor: pointer;
     width: 40px;
@@ -1569,10 +1673,12 @@ a:hover {
         font-size: 1rem;
         overflow: hidden; } }
     .frfForm .formBody p {
-      margin-bottom: 23px; }
+      margin-bottom: 23px;
+      margin-left: 17px; }
       .frfForm .formBody p.bold {
         font-family: "KozGoPro-Bold-AlphaNum";
-        margin-bottom: 0; }
+        margin-bottom: 0;
+        margin-left: 0; }
   .frfForm .scrollTopPopup {
     cursor: pointer;
     width: 40px;
@@ -1628,12 +1734,18 @@ a:hover {
         overflow-y: hidden;
         margin-bottom: 0; } }
     .rulesForm .formBody p {
-      margin-bottom: 23px; }
+      margin-bottom: 23px;
+      margin-left: 17px; }
       @media only screen and (max-width: 767px) {
         .rulesForm .formBody p {
           margin-bottom: 10px; } }
+      .rulesForm .formBody p span {
+        margin-left: -15px; }
       .rulesForm .formBody p.bold {
-        font-family: "KozGoPro-Bold-AlphaNum"; }
+        font-family: "KozGoPro-Bold-AlphaNum";
+        margin-left: 0; }
+      .rulesForm .formBody p.subTitle {
+        margin-left: 0; }
   .rulesForm .formBtnWrap {
     text-align: center;
     border-top: 10px solid #d79e00;
@@ -1666,31 +1778,33 @@ a:hover {
         display: none; }
       .rulesForm .formBtnWrap .checkboxStyle input[type="checkbox"]:checked ~ label:before {
         background-color: #000; }
-      .rulesForm .formBtnWrap .checkboxStyle label:before {
-        content: "";
-        width: 40px;
-        height: 40px;
-        display: inline-block;
-        background-color: #fff;
-        border: 5px solid #000;
-        transition: .5s;
-        -webkit-transform: translateY(8px);
-        -khtml-transform: translateY(8px);
-        -moz-transform: translateY(8px);
-        -ms-transform: translateY(8px);
-        -o-transform: translateY(8px);
-        transform: translateY(8px); }
-        @media only screen and (max-width: 767px) {
-          .rulesForm .formBtnWrap .checkboxStyle label:before {
-            border: 3px solid #000;
-            width: 20px;
-            height: 20px;
-            -webkit-transform: translateY(3px);
-            -khtml-transform: translateY(3px);
-            -moz-transform: translateY(3px);
-            -ms-transform: translateY(3px);
-            -o-transform: translateY(3px);
-            transform: translateY(3px); } }
+      .rulesForm .formBtnWrap .checkboxStyle label {
+        cursor: pointer; }
+        .rulesForm .formBtnWrap .checkboxStyle label:before {
+          content: "";
+          width: 40px;
+          height: 40px;
+          display: inline-block;
+          background-color: #fff;
+          border: 5px solid #000;
+          transition: .5s;
+          -webkit-transform: translateY(8px);
+          -khtml-transform: translateY(8px);
+          -moz-transform: translateY(8px);
+          -ms-transform: translateY(8px);
+          -o-transform: translateY(8px);
+          transform: translateY(8px); }
+          @media only screen and (max-width: 767px) {
+            .rulesForm .formBtnWrap .checkboxStyle label:before {
+              border: 3px solid #000;
+              width: 20px;
+              height: 20px;
+              -webkit-transform: translateY(3px);
+              -khtml-transform: translateY(3px);
+              -moz-transform: translateY(3px);
+              -ms-transform: translateY(3px);
+              -o-transform: translateY(3px);
+              transform: translateY(3px); } }
   .rulesForm .formBtn {
     display: block;
     width: 604px;
@@ -1700,10 +1814,18 @@ a:hover {
     line-height: 85px;
     font-size: 2.18rem;
     position: relative;
-    background-color: #000;
+    background-color: darkgray;
     color: #fff;
     border-radius: 15px;
-    font-family: "KozGoPro-Heavy-AlphaNum"; }
+    font-family: "KozGoPro-Heavy-AlphaNum";
+    cursor: no-drop; }
+    .rulesForm .formBtn:hover {
+      opacity: 1; }
+    .rulesForm .formBtn.active {
+      background-color: #000;
+      cursor: pointer; }
+      .rulesForm .formBtn.active:hover {
+        opacity: 0.8; }
     @media only screen and (max-width: 767px) {
       .rulesForm .formBtn {
         width: 100%;
@@ -1798,14 +1920,24 @@ a:hover {
         overflow-y: hidden;
         margin-bottom: 0; } }
     .rulesRfrForm .formBody p {
-      margin-bottom: 23px; }
+      margin-bottom: 23px;
+      margin-left: 17px; }
       @media only screen and (max-width: 767px) {
         .rulesRfrForm .formBody p {
           margin-bottom: 10px; } }
+      .rulesRfrForm .formBody p span {
+        margin-left: -15px; }
       .rulesRfrForm .formBody p.bold {
-        font-family: "KozGoPro-Bold-AlphaNum"; }
+        font-family: "KozGoPro-Bold-AlphaNum";
+        margin-left: 0; }
+      .rulesRfrForm .formBody p.subTitle {
+        margin-left: 0; }
   .rulesRfrForm .modalBtnWrap {
     font-family: "KozGoPro-Heavy-AlphaNum";
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     justify-content: space-around;
     padding-top: 60px;
@@ -1823,6 +1955,10 @@ a:hover {
       font-size: 92%;
       margin-top: -4px; }
     .rulesRfrForm .modalBtnWrap .detailBtn02 {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-inline-flexbox;
+      display: -webkit-inline-flex;
       display: inline-flex;
       color: #eaffff;
       background-color: #000;
@@ -2064,6 +2200,10 @@ a:hover {
     left: 30px;
     right: 30px;
     bottom: -20px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2098,3 +2238,66 @@ iframe {
   border: none;
   overflow: hidden;
   margin: 0; }
+
+.nativeAndroid .topBanner .bannerTextBlock .bannerBtn {
+  align-items: center; }
+  .nativeAndroid .topBanner .bannerTextBlock .bannerBtn .italic {
+    margin-top: 10px; }
+.nativeAndroid .topBanner .bannerTextBlock .bannerBtn.bannerBtn02 .imgSp {
+  margin-bottom: 5px;
+  margin-top: -5px; }
+.nativeAndroid .sectionTime .timeHeadBlock .timeHeadBlock02 {
+  margin-top: 20px; }
+.nativeAndroid .sectionTime .timeTour .tourBlock .tourCir {
+  padding-top: 10px; }
+.nativeAndroid .sectionTime .timeBtnWrap .btnTerm {
+  padding-top: 7px; }
+.nativeAndroid .sectionInfo03 > img {
+  margin-bottom: 15px; }
+.nativeAndroid .sectionDetail .sectionDetailList li {
+  padding-bottom: 20px; }
+.nativeAndroid .sectionDetail .sectionDetailList li .liCir {
+  padding-top: 20px; }
+.nativeAndroid .sectionDetail .sectionDetailTitle {
+  margin-top: 20px; }
+.nativeAndroid .sectionDetail .sectionDetailLinkWrap .detailBtn {
+  padding-top: 15px; }
+.nativeAndroid .sectionDetail .sectionDetailLinkWrap02 .detailBtn02 .detailBtn02Cir {
+  padding-top: 10px; }
+.nativeAndroid .sectionDetail .sectionDetailLinkWrap02 .detailBtn02 {
+  padding-top: 25px;
+  font-size: 1.7rem; }
+  .nativeAndroid .sectionDetail .sectionDetailLinkWrap02 .detailBtn02 .detailBtn02Cir {
+    margin-right: 5px;
+    margin-top: -25px; }
+.nativeAndroid .sectionDetail .sectionDetailLinkWrap02 .detailBtn02.detailBtn02_02 small {
+  font-size: 0.8rem;
+  bottom: 0; }
+.nativeAndroid .sectionDetail .detailBtn03.visible-xs {
+  padding-top: 10px; }
+.nativeAndroid .sectionDetail .detailBtn04 {
+  padding-top: 10px; }
+.nativeAndroid .sectionDetail .sectionDetailHead .headCir {
+  padding-top: 15px; }
+.nativeAndroid .tourBlockModal h2 {
+  margin-top: 20px; }
+.nativeAndroid .tourBlockModal .modalBtn {
+  padding-top: 7px; }
+.nativeAndroid .rulesForm .formBtn {
+  padding-top: 7px; }
+.nativeAndroid .snowPeak h2 {
+  margin-top: 15px; }
+  .nativeAndroid .snowPeak h2 > span {
+    margin-top: 10px; }
+.nativeAndroid .snowPeak .modalBtnWrap .detailBtn02 {
+  font-size: 1.5rem;
+  padding-top: 25px; }
+  .nativeAndroid .snowPeak .modalBtnWrap .detailBtn02 .detailBtn02Cir {
+    margin-top: -25px;
+    padding-top: 8px; }
+.nativeAndroid .rulesRfrForm .modalBtnWrap .detailBtn02 {
+  font-size: 1.5rem;
+  padding-top: 25px; }
+  .nativeAndroid .rulesRfrForm .modalBtnWrap .detailBtn02 .detailBtn02Cir {
+    margin-top: -25px;
+    padding-top: 8px; }

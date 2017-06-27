@@ -110,6 +110,19 @@ $(function () {
         $(this).parents(".popupScrollUp").animate({ scrollTop: 0 }, 'slow');
     })
 
+    var ua = navigator.userAgent;
+    var is_native_android = ((ua.indexOf('Mozilla/5.0') > -1 && ua.indexOf('Android ') > -1 && ua.indexOf('AppleWebKit') > -1) && (ua.indexOf('Version') > -1));
 
+    if(is_native_android) {
+        $("body").addClass("nativeAndroid");
+    }
+
+    $(".rulesForm .formBtnWrap .checkboxStyle input[type='checkbox']").on("click", function () {
+        if($(this).is(":checked")) {
+            $(".rulesForm .formBtn").attr("href", "http://fmd.docomo-de.net/445/toPENQ_campaignMLOpt_auto.jsp?detail_id=0000012232&entry_count=1").addClass("active");
+        } else {
+            $(".rulesForm .formBtn").attr("href","javascript:void(0)").removeClass("active");
+        }
+    })
 
 });
