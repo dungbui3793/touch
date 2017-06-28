@@ -120,9 +120,15 @@ $(function () {
     $(".rulesForm .formBtnWrap .checkboxStyle input[type='checkbox']").on("click", function () {
         if($(this).is(":checked")) {
             $(".rulesForm .formBtn").attr("href", "http://fmd.docomo-de.net/445/toPENQ_campaignMLOpt_auto.jsp?detail_id=0000012232&entry_count=1").addClass("active");
+            $(".rulesForm .formBtn").attr("target","_blank");
         } else {
-            $(".rulesForm .formBtn").attr("href","javascript:void(0)").removeClass("active");
+            $(".rulesForm .formBtn").removeAttr("href").removeClass("active");
+            $(".rulesForm .formBtn").removeAttr("target");
         }
-    })
+    });
+
+    if (/MSIE (\d+\.\d+);/.test(navigator.userAgent) || navigator.userAgent.indexOf("Trident/") > -1 ){
+        $("body").addClass("ie");
+    }
 
 });

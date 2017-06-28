@@ -17,10 +17,14 @@
 
     <!-- CSS
     ================================================== -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="/campaign/common/css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 
+    <!-- Google font
+    ================================================== -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700i" rel="stylesheet">
     <!-- Favicons
     ================================================== -->
     <link rel="icon" type="image/ico" sizes="" href="">
@@ -59,10 +63,9 @@
 </head>
 <body>
 
-<div class="text-center">
-    <img src="img/header.jpg" alt="header" class="hidden-xs">
-    <img src="img/header-sp.jpg" alt="header" class="visible-xs" >
-</div>
+<header class="header" id="header">
+    <nav class="globalnavi"></nav>
+</header>
 
 <section class="topBanner">
     <div class="container">
@@ -259,10 +262,10 @@
             「iD」があるとフジロックがこんなに便利！
         </div>
         <a href="http://id-credit.com/article/fujirockfes17/index.html" target="_blank" class="detailBtn03 wow fadeInUp visible-xs" onclick="ga('send', 'event', 'open17su', 'click_out', 'FRF_iD', 1);">
-            <span>FUJI ROCK FESTIVAL ‘17で</span><span>「iD」が使えます。<small>詳しくはこちら！</small></span>
+            <span>FUJI ROCK FESTIVAL’17で</span><span>「iD」が使えます。<small>詳しくはこちら！</small></span>
         </a>
         <a href="http://id-credit.com/article/fujirockfes17/index.html" target="_blank" class="detailBtn03 wow fadeInUp hidden-xs" onclick="ga('send', 'event', 'open17su', 'click_out', 'FRF_iD', 1);">
-            FUJI ROCK FESTIVAL ‘17で「iD」が使えます。<small>詳しくはこちら！</small>
+            FUJI ROCK FESTIVAL’17で「iD」が使えます。<small>詳しくはこちら！</small>
         </a>
         <a href="http://www.fujirockfestival.com" target="_blank" class="detailBtn04 wow fadeInUp" onclick="ga('send', 'event', 'open17su', 'click_out', 'FRF_official', 1);">
            <div>
@@ -287,10 +290,7 @@
     </div>
 </section>
 
-<div class="text-center">
-    <img src="img/footer.jpg" alt="footer" class="hidden-xs">
-    <img src="img/footer-sp.jpg" alt="footer" class="visible-xs" >
-</div>
+<footer class="footer"></footer>
 
 <!-- POPUP MODAL
    ================================================== -->
@@ -366,7 +366,7 @@
                         <div class="modalDesc06">
                             <span class="col_left">含まれるもの</span>
                             <span class="col_right"><span class="visible-xs">:</span>スカイダイビング体験（兵庫県豊岡市）、<br>
-                                宿泊1泊（2名1室利用/朝食付）・旅行券10万円</span>
+                                宿泊1泊（2名1室利用/朝食付）、旅行券10万円</span>
                         </div>
                         <div class="modalDesc04">
                             ※現地までの往復交通費・レンタカー・食事（ホテル朝食以外）・飲食代・別途ご案内させていただく保険などは自己負担です。
@@ -444,7 +444,7 @@
                         <li>・焚火台L（約W450×D450×H300mm ）×1</li>
                         <li>・焚火台ベースプレート（約W450×D450×H9mm ）×1</li>
                         <li>・炭床Pro L（約W310×D310×H20mm ）×1</li>
-                        <li>・焚火台L コンプリート収納ケース （約W700×D590×70mm ）×1</li>
+                        <li>・焚火台L コンプリート収納ケース（約W700×D590×70mm）×1</li>
                         <li>・Take!チェア （約W550×D630×H750mm）×2</li>
                     </ul>
                 </div>
@@ -501,7 +501,7 @@
 
                     <p><span>《応募資格》</span><br>
                         応募は日本国内にお住いの方に限らせていただきます。<br>
-                        応募はおひとり様1回限り有効とします。但し、複数回の応募があった場合、または応募情報などの変更などで再度登　録した場合は、最後に登録した応募情報を有効とさせていただきます。<br>
+                        応募はおひとり様1回限り有効とします。但し、複数回の応募があった場合、または応募情報などの変更などで再度登録した場合は、最後に登録した応募情報を有効とさせていただきます。<br>
                         応募は希望賞品の体験が可能な方に限らせていただきます。応募の際は、希望賞品の注意事項をご確認のうえ、ご応募ください。</p>
 
                     <p><span>《賞品・当選者数》</span><br>
@@ -616,12 +616,12 @@
                 </div>
             </div>
             <div class="formBtnWrap">
-                <p>応募規約をご確認の上、ご応募ください</p>
+                <p>賞品に関する注意事項をご確認の上、ご応募ください</p>
                 <div class="checkboxStyle">
                     <input type="checkbox" id="checkForm">
                     <label for="checkForm">「応募規約」に同意する</label>
                 </div>
-                <a href="javascript:void(0)" target="_blank" class="formBtn" onclick="ga('send', 'event', 'open17su', 'touch_entry', 'Entry_2', 1);">応募フォームへ</a>
+                <a class="formBtn" onclick="ga('send', 'event', 'open17su', 'touch_entry', 'Entry_2', 1);">応募フォームへ</a>
             </div>
             <img src="img/icon-scrollTop.png" class="scrollTopPopup visible-xs">
         </div>
@@ -642,7 +642,7 @@
                     <span class="title02">よくあるご質問</span>
                 </h2>
                 <h2 class="visible-xs">
-                    Touch THE NEW WORLD！ iD キャンペーン<span class="title02">よくあるご質問</span>
+                    Touch THE NEW WORLD iD キャンペーン<span class="title02">よくあるご質問</span>
                 </h2>
                 <div class="clearfix formBody">
                     <p class="bold">Q. キャンペーン名は？</p>
@@ -671,7 +671,7 @@
                     <p>応募可能です。</p>
 
                     <p class="bold">Q. 応募方法は？</p>
-                    <p>キャンペーンサイトから応募規約に同意の上、希望賞品、氏名、フリガナ、郵便番号、住所、連絡先電話番号、性別、年齢を入力の上ご応募ください。</p>
+                    <p>キャンペーンサイトから応募規約に同意の上、性別、年齢、希望賞品、氏名、フリガナ、郵便番号、住所、連絡先電話番号を入力の上ご応募ください。</p>
 
                     <p class="bold">Q. 一度登録した応募情報に変更があった場合はどうすればいいですか？</p>
                     <p>一度登録された応募情報の変更はできません。応募フォームより新しい情報で再度ご登録ください。</p>
@@ -688,7 +688,7 @@
                         ※応募に関しては、PCまたはスマートフォンからご応募ください。</p>
 
                     <p class="bold">Q. 抽選の結果はどのように通知されますか？</p>
-                    <p>当選されたお客様には、個別にご登録の連絡先電話番号へご連絡いたします。当選のお知らせは、2017年9月中旬頃を予定しています。</p>
+                    <p>当選されたお客様には、ご登録の連絡先電話番号へご連絡いたします。当選のお知らせは、2017年9月中旬頃を予定しています。</p>
 
                     <p class="bold">Q. 当選した賞品はいつ頃もらえますか？</p>
                     <p>2017年9月下旬頃までにお送りする予定です。諸事情により前後する場合もございます。</p>
@@ -905,6 +905,7 @@
 <!-- Javascript
     ================================================== -->
 <script src="js/jquery-2.2.4.min.js"></script>
+<script src="/campaign/common/js/import.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/main.js"></script>

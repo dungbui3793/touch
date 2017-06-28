@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: 'KozGoPro-Bold-AlphaNum';
   src: url("../fonts/KozGoPro-Bold-AlphaNum.eot");
@@ -24,9 +25,71 @@
   src: url("../fonts/HeiseiMaruGoStd-W4-AlphaNum.eot?#iefix") format("embedded-opentype"), url("../fonts/HeiseiMaruGoStd-W4-AlphaNum.otf") format("opentype"), url("../fonts/HeiseiMaruGoStd-W4-AlphaNum.woff") format("woff"), url("../fonts/HeiseiMaruGoStd-W4-AlphaNum.ttf") format("truetype"), url("../fonts/HeiseiMaruGoStd-W4-AlphaNum.svg#HeiseiMaruGoStd-W4-AlphaNum") format("svg");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 100;
+  src: url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Thin.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Thin.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Thin.otf) format("opentype"); }
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 300;
+  src: url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Light.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Light.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Light.otf) format("opentype"); }
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.otf) format("opentype"); }
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 500;
+  src: url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Medium.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Medium.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Medium.otf) format("opentype"); }
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 700;
+  src: url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Bold.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Bold.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Bold.otf) format("opentype"); }
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 900;
+  src: url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Black.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Black.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Black.otf) format("opentype"); }
+/* 初期化 */
+html, body {
+  font: 16px/1.5; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  font-size: inherit;
+  line-height: 1.5;
+  font-family: inherit; }
+
+.container {
+  margin: 0 auto; }
+  @media only screen and (max-width: 767px) {
+    .container {
+      width: 100%; } }
+
+.container p {
+  line-height: inherit;
+  margin: 0; }
+
 html, body {
   font-size: 16px;
-  color: #000; }
+  color: #000;
+  font-family: "Noto Sans JP"; }
   @media only screen and (max-width: 1160px) {
     html, body {
       font-size: 15px; } }
@@ -50,6 +113,9 @@ a {
 
 a:hover {
   opacity: 0.8; }
+
+a:focus {
+  text-decoration: none; }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0; }
@@ -149,6 +215,9 @@ a:hover {
           height: 75px;
           margin: 0 5px;
           border-radius: 8px; } }
+      @media only screen and (max-width: 320px) {
+        .topBanner .bannerTextBlock .bannerBtn {
+          font-size: 1.3rem; } }
       .topBanner .bannerTextBlock .bannerBtn:after {
         content: "";
         width: 0;
@@ -166,6 +235,9 @@ a:hover {
             border-top: 6px solid #000; } }
       .topBanner .bannerTextBlock .bannerBtn .italic {
         font-style: italic; }
+        @media only screen and (max-width: 320px) {
+          .topBanner .bannerTextBlock .bannerBtn .italic {
+            margin-bottom: 5px; } }
       .topBanner .bannerTextBlock .bannerBtn .btnImg01 {
         width: 47px; }
         @media only screen and (max-width: 767px) {
@@ -224,22 +296,25 @@ a:hover {
   display: flex;
   align-items: center;
   font-family: "KozGoPro-Medium-AlphaNum";
-  color: #fff;
-  font-size: 1.7rem;
-  letter-spacing: 4px;
-  line-height: 2.2;
-  -webkit-text-shadow: 2px 2px 20px #000;
-  -khtml-text-shadow: 2px 2px 20px #000;
-  -moz-text-shadow: 2px 2px 20px #000;
-  -ms-text-shadow: 2px 2px 20px #000;
-  -o-text-shadow: 2px 2px 20px #000;
-  text-shadow: 2px 2px 20px #000; }
+  color: #fff; }
+  .sectionInfo .container {
+    font-size: 1.7rem;
+    letter-spacing: 4px;
+    line-height: 2.2;
+    -webkit-text-shadow: 2px 2px 20px #000;
+    -khtml-text-shadow: 2px 2px 20px #000;
+    -moz-text-shadow: 2px 2px 20px #000;
+    -ms-text-shadow: 2px 2px 20px #000;
+    -o-text-shadow: 2px 2px 20px #000;
+    text-shadow: 2px 2px 20px #000; }
+    @media only screen and (max-width: 767px) {
+      .sectionInfo .container {
+        line-height: 2;
+        letter-spacing: 0;
+        font-size: 1.6rem; } }
   @media only screen and (max-width: 767px) {
     .sectionInfo {
-      height: 350px;
-      line-height: 2;
-      letter-spacing: 0;
-      font-size: 1.6rem; } }
+      height: 350px; } }
 
 .sectionTime {
   padding: 54px 0 60px; }
@@ -253,10 +328,16 @@ a:hover {
       font-family: "KozGoPro-Bold-AlphaNum";
       margin-bottom: 0;
       font-size: 1.5rem; }
+      @media only screen and (max-width: 320px) {
+        .sectionTime .timeHeadBlock .timeHeadBlock01 {
+          font-size: 1.4rem; } }
     .sectionTime .timeHeadBlock .timeHeadBlock02 {
       font-family: "KozGoPro-Heavy-AlphaNum";
       font-style: italic;
-      font-size: 4.69rem; }
+      font-size: 4.69rem;
+      line-height: 1;
+      margin-top: 9px;
+      margin-bottom: -12px; }
       @media only screen and (max-width: 767px) {
         .sectionTime .timeHeadBlock .timeHeadBlock02 {
           line-height: 1.1;
@@ -361,6 +442,8 @@ a:hover {
         color: #231815;
         line-height: 1;
         flex-shrink: 0; }
+        .sectionTime .timeTour .tourBlock .tourCir > div:first-child {
+          margin-bottom: -10px; }
         @media only screen and (max-width: 767px) {
           .sectionTime .timeTour .tourBlock .tourCir {
             width: 65px;
@@ -463,9 +546,6 @@ a:hover {
   align-items: center;
   font-family: "KozGoPro-Medium-AlphaNum";
   color: #fff;
-  font-size: 1.7rem;
-  letter-spacing: 4px;
-  line-height: 2.2;
   margin-bottom: 35px;
   -webkit-text-shadow: 2px 2px 20px #000;
   -khtml-text-shadow: 2px 2px 20px #000;
@@ -473,16 +553,24 @@ a:hover {
   -ms-text-shadow: 2px 2px 20px #000;
   -o-text-shadow: 2px 2px 20px #000;
   text-shadow: 2px 2px 20px #000; }
+  .sectionInfo02 .container {
+    font-size: 1.7rem;
+    letter-spacing: 4px;
+    line-height: 2.2; }
+    @media only screen and (max-width: 767px) {
+      .sectionInfo02 .container {
+        line-height: 2;
+        letter-spacing: 0;
+        font-size: 1.6rem;
+        padding: 0 10px; } }
   @media only screen and (max-width: 767px) {
     .sectionInfo02 {
       height: 350px;
-      line-height: 2;
-      letter-spacing: 0;
-      font-size: 1.6rem;
-      padding: 0 10px;
       margin-bottom: 5px; }
       .sectionInfo02 .container {
         width: 100%; } }
+  .sectionInfo02 sup {
+    font-size: 55%; }
   .sectionInfo02 small {
     display: block;
     font-size: 0.875rem;
@@ -807,7 +895,7 @@ a:hover {
       display: inline-flex;
       width: 455px;
       height: 155px;
-      color: #eaffff;
+      color: #fff;
       background-color: #000;
       align-items: center;
       font-size: 1.6875rem;
@@ -826,6 +914,9 @@ a:hover {
           height: 90px;
           font-size: 1.8rem;
           padding: 9px; } }
+      @media only screen and (max-width: 320px) {
+        .sectionDetail .sectionDetailLinkWrap02 .detailBtn02 {
+          font-size: 1.5rem; } }
       .sectionDetail .sectionDetailLinkWrap02 .detailBtn02:after {
         content: "";
         position: absolute;
@@ -833,7 +924,7 @@ a:hover {
         height: 0;
         border-top: 16px solid transparent;
         border-bottom: 16px solid transparent;
-        border-left: 15px solid #eaffff;
+        border-left: 15px solid #fff;
         right: 20px;
         top: 50%;
         -webkit-transform: translateY(-50%);
@@ -846,7 +937,7 @@ a:hover {
           .sectionDetail .sectionDetailLinkWrap02 .detailBtn02:after {
             border-top: 10px solid transparent;
             border-bottom: 10px solid transparent;
-            border-left: 10px solid #eaffff;
+            border-left: 10px solid #fff;
             right: 15px; } }
       .sectionDetail .sectionDetailLinkWrap02 .detailBtn02 .detailBtn02Cir {
         width: 58px;
@@ -876,6 +967,9 @@ a:hover {
         @media only screen and (max-width: 767px) {
           .sectionDetail .sectionDetailLinkWrap02 .detailBtn02.detailBtn02_02 {
             border: 4px solid #000; } }
+        @media only screen and (max-width: 320px) {
+          .sectionDetail .sectionDetailLinkWrap02 .detailBtn02.detailBtn02_02 {
+            font-size: 1.5rem; } }
         .sectionDetail .sectionDetailLinkWrap02 .detailBtn02.detailBtn02_02 small {
           font-size: 0.875rem;
           position: absolute;
@@ -885,8 +979,13 @@ a:hover {
           @media only screen and (max-width: 767px) {
             .sectionDetail .sectionDetailLinkWrap02 .detailBtn02.detailBtn02_02 small {
               bottom: 5px; } }
+          @media only screen and (max-width: 320px) {
+            .sectionDetail .sectionDetailLinkWrap02 .detailBtn02.detailBtn02_02 small {
+              font-size: 0.83rem;
+              left: 5px; } }
         .sectionDetail .sectionDetailLinkWrap02 .detailBtn02.detailBtn02_02 .detailBtn02_02Text {
-          margin-bottom: 18px; }
+          margin-bottom: 18px;
+          line-height: 1.3; }
           @media only screen and (max-width: 767px) {
             .sectionDetail .sectionDetailLinkWrap02 .detailBtn02.detailBtn02_02 .detailBtn02_02Text {
               margin-bottom: 14px; } }
@@ -912,7 +1011,7 @@ a:hover {
         font-size: 1.3rem; } }
   .sectionDetail .detailBtn03 {
     margin: 0 auto 30px;
-    width: 930px;
+    width: 81.9%;
     height: 130px;
     background-image: url("../img/btn-bg.png");
     color: #fff;
@@ -936,16 +1035,21 @@ a:hover {
     -ms-text-shadow: 2px 2px 20px #000;
     -o-text-shadow: 2px 2px 20px #000;
     text-shadow: 2px 2px 20px #000;
-    cursor: pointer; }
+    cursor: pointer;
+    border-radius: 15px; }
     .sectionDetail .detailBtn03 small {
       display: block;
       font-size: 1.625rem;
       margin-right: 20px;
       width: 100%; }
+    @media only screen and (max-width: 1160px) {
+      .sectionDetail .detailBtn03 {
+        font-size: 2.3rem; } }
     @media only screen and (max-width: 800px) {
       .sectionDetail .detailBtn03 {
         width: 100%;
-        border-radius: 15px; } }
+        border-radius: 15px;
+        font-size: 2.2rem; } }
     @media only screen and (max-width: 767px) {
       .sectionDetail .detailBtn03 {
         font-size: 1.7rem;
@@ -1177,6 +1281,9 @@ a:hover {
         border-bottom: 10px solid transparent;
         border-left: 12px solid #fff;
         right: 27px; } }
+    @media only screen and (max-width: 320px) {
+      .tourBlockModal .modalBtn:after {
+        right: 10px; } }
 .tourBlockModal .col_left {
   float: left;
   width: 33.1%; }
@@ -1200,7 +1307,7 @@ a:hover {
 .tourBlockModal h2 {
   font-size: 1.5rem;
   font-family: "KozGoPro-Bold-AlphaNum";
-  margin-bottom: 24px; }
+  margin-bottom: 11px; }
   @media only screen and (max-width: 767px) {
     .tourBlockModal h2 {
       text-align: center;
@@ -1215,7 +1322,7 @@ a:hover {
         font-size: 2.26rem; } }
 .tourBlockModal .modalDesc {
   font-size: 1.17rem;
-  margin-bottom: 26px;
+  margin-bottom: 13px;
   line-height: 1.6; }
   @media only screen and (max-width: 767px) {
     .tourBlockModal .modalDesc {
@@ -1271,7 +1378,7 @@ a:hover {
         margin-left: 25px !important; } }
 .tourBlockModal .modalDesc06 {
   font-family: "KozGoPro-Medium-AlphaNum";
-  margin-bottom: 19px;
+  margin-bottom: 10px;
   line-height: 1.8; }
   .tourBlockModal .modalDesc06 .col_left {
     float: left;
@@ -1303,7 +1410,7 @@ a:hover {
     .tourBlockModal .modalDesc04, .tourBlockModal .modalDesc05 {
       font-size: 10px; } }
 .tourBlockModal .modalDesc05 {
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 50px; }
   @media only screen and (max-width: 767px) {
     .tourBlockModal .modalDesc05 {
@@ -1359,7 +1466,8 @@ a:hover {
       .snowPeak .col_left {
         width: 100%;
         float: none;
-        margin-bottom: 20px; } }
+        margin-bottom: 20px;
+        text-align: center; } }
   .snowPeak .col_right {
     overflow: hidden;
     padding-left: 35px; }
@@ -1426,7 +1534,7 @@ a:hover {
       display: -ms-inline-flexbox;
       display: -webkit-inline-flex;
       display: inline-flex;
-      color: #eaffff;
+      color: #fff;
       background-color: #000;
       align-items: center;
       text-align: left;
@@ -1457,7 +1565,7 @@ a:hover {
         height: 0;
         border-top: 16px solid transparent;
         border-bottom: 16px solid transparent;
-        border-left: 15px solid #eaffff;
+        border-left: 15px solid #fff;
         right: 20px;
         top: 50%;
         -webkit-transform: translateY(-50%);
@@ -1470,7 +1578,7 @@ a:hover {
           .snowPeak .modalBtnWrap .detailBtn02:after {
             border-top: 10px solid transparent;
             border-bottom: 10px solid transparent;
-            border-left: 10px solid #eaffff;
+            border-left: 10px solid #fff;
             right: 15px; } }
       .snowPeak .modalBtnWrap .detailBtn02 .detailBtn02Cir {
         font-size: 2.1rem;
@@ -1517,7 +1625,8 @@ a:hover {
             .snowPeak .modalBtnWrap .detailBtn02.detailBtn02_02 small {
               display: none; } }
         .snowPeak .modalBtnWrap .detailBtn02.detailBtn02_02 .detailBtn02_02Text {
-          margin-bottom: 15px; }
+          margin-bottom: 15px;
+          line-height: 1.3; }
           @media only screen and (max-width: 767px) {
             .snowPeak .modalBtnWrap .detailBtn02.detailBtn02_02 .detailBtn02_02Text {
               margin-bottom: 0; } }
@@ -1563,7 +1672,8 @@ a:hover {
     text-align: center;
     font-size: 2.375rem;
     font-family: "KozGoPro-Heavy-AlphaNum";
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+    line-height: 0; }
     @media only screen and (max-width: 767px) {
       .questionForm h2 {
         font-size: 1.2rem;
@@ -1777,7 +1887,8 @@ a:hover {
       .rulesForm .formBtnWrap .checkboxStyle input[type="checkbox"] {
         display: none; }
       .rulesForm .formBtnWrap .checkboxStyle input[type="checkbox"]:checked ~ label:before {
-        background-color: #000; }
+        background-image: url("../img/icon-tick.png");
+        background-size: cover; }
       .rulesForm .formBtnWrap .checkboxStyle label {
         cursor: pointer; }
         .rulesForm .formBtnWrap .checkboxStyle label:before {
@@ -1814,18 +1925,23 @@ a:hover {
     line-height: 85px;
     font-size: 2.18rem;
     position: relative;
-    background-color: darkgray;
-    color: #fff;
+    background-color: #000;
+    color: #4c4c4c;
     border-radius: 15px;
     font-family: "KozGoPro-Heavy-AlphaNum";
     cursor: no-drop; }
     .rulesForm .formBtn:hover {
       opacity: 1; }
     .rulesForm .formBtn.active {
-      background-color: #000;
-      cursor: pointer; }
+      cursor: pointer;
+      color: #fff; }
       .rulesForm .formBtn.active:hover {
         opacity: 0.8; }
+      .rulesForm .formBtn.active:after {
+        border-left: 20px solid #fff; }
+        @media only screen and (max-width: 767px) {
+          .rulesForm .formBtn.active:after {
+            border-left: 12px solid #fff; } }
     @media only screen and (max-width: 767px) {
       .rulesForm .formBtn {
         width: 100%;
@@ -1840,7 +1956,7 @@ a:hover {
       height: 0;
       border-top: 18px solid transparent;
       border-bottom: 18px solid transparent;
-      border-left: 20px solid #fff;
+      border-left: 20px solid #4c4c4c;
       right: 36px;
       top: 50%;
       -webkit-transform: translateY(-50%);
@@ -1853,7 +1969,7 @@ a:hover {
         .rulesForm .formBtn:after {
           border-top: 10px solid transparent;
           border-bottom: 10px solid transparent;
-          border-left: 12px solid #eaffff;
+          border-left: 12px solid #4c4c4c;
           right: 27px; } }
   .rulesForm .scrollTopPopup {
     cursor: pointer;
@@ -1960,7 +2076,7 @@ a:hover {
       display: -ms-inline-flexbox;
       display: -webkit-inline-flex;
       display: inline-flex;
-      color: #eaffff;
+      color: #fff;
       background-color: #000;
       align-items: center;
       text-align: left;
@@ -1991,7 +2107,7 @@ a:hover {
         height: 0;
         border-top: 16px solid transparent;
         border-bottom: 16px solid transparent;
-        border-left: 15px solid #eaffff;
+        border-left: 15px solid #fff;
         right: 20px;
         top: 50%;
         -webkit-transform: translateY(-50%);
@@ -2004,7 +2120,7 @@ a:hover {
           .rulesRfrForm .modalBtnWrap .detailBtn02:after {
             border-top: 10px solid transparent;
             border-bottom: 10px solid transparent;
-            border-left: 10px solid #eaffff;
+            border-left: 10px solid #fff;
             right: 15px; } }
       .rulesRfrForm .modalBtnWrap .detailBtn02 .detailBtn02Cir {
         font-size: 2.1rem;
@@ -2051,7 +2167,8 @@ a:hover {
             .rulesRfrForm .modalBtnWrap .detailBtn02.detailBtn02_02 small {
               display: none; } }
         .rulesRfrForm .modalBtnWrap .detailBtn02.detailBtn02_02 .detailBtn02_02Text {
-          margin-bottom: 15px; }
+          margin-bottom: 15px;
+          line-height: 1.3; }
           @media only screen and (max-width: 767px) {
             .rulesRfrForm .modalBtnWrap .detailBtn02.detailBtn02_02 .detailBtn02_02Text {
               margin-bottom: 0; } }
@@ -2161,7 +2278,7 @@ a:hover {
         .rulesRfrForm .formBtn:after {
           border-top: 10px solid transparent;
           border-bottom: 10px solid transparent;
-          border-left: 12px solid #eaffff;
+          border-left: 12px solid #fff;
           right: 27px; } }
   .rulesRfrForm .scrollTopPopup {
     cursor: pointer;
@@ -2212,6 +2329,10 @@ a:hover {
     color: #fff;
     font-family: "KozGoPro-Heavy-AlphaNum";
     border-radius: 8px; }
+    @media only screen and (max-width: 1160px) {
+      .comingSoon .comingSoonBg {
+        left: 0;
+        right: 0; } }
     @media only screen and (max-width: 767px) {
       .comingSoon .comingSoonBg {
         left: 10px;
@@ -2301,3 +2422,63 @@ iframe {
   .nativeAndroid .rulesRfrForm .modalBtnWrap .detailBtn02 .detailBtn02Cir {
     margin-top: -25px;
     padding-top: 8px; }
+
+body.ie {
+  font-family: 'Noto Sans', sans-serif !important; }
+  body.ie .sectionTime .timeHeadBlock .timeHeadBlock02,
+  body.ie .questionForm h2 {
+    font-weight: 700;
+    font-style: italic; }
+  body.ie .sectionTime .timeHeadBlock .timeHeadBlock02,
+  body.ie .topBanner .bannerText,
+  body.ie .topBanner .bannerTextBlock .bannerBtn,
+  body.ie .sectionInfo,
+  body.ie .sectionTime .timeHeadBlock .timeHeadBlock01,
+  body.ie .sectionTime .timeHeadBlock .timeHeadBlock03,
+  body.ie .sectionTime .timeHeadBlock .timeHeadBlock04,
+  body.ie .sectionTime .timeHeadBlock .timeHeadBlock05,
+  body.ie .sectionTime .timeBtnWrap .btnMoreQuestion,
+  body.ie .sectionTime .timeBtnWrap .btnTerm,
+  body.ie .sectionInfo02,
+  body.ie .sectionInfo03 .sectionInfoText01,
+  body.ie .sectionInfo03 .sectionInfoText02,
+  body.ie .sectionInfo03,
+  body.ie .sectionDetail .sectionDetailHead .headCir,
+  body.ie .sectionDetail .sectionDetailHead .detailHeadText01,
+  body.ie .comingSoon .comingSoonBg,
+  body.ie .sectionDetail .sectionDetailTitle,
+  body.ie .sectionDetail .sectionDetailList,
+  body.ie .sectionDetail .sectionDetailLinkWrap .detailBtn,
+  body.ie .sectionDetail .sectionDetailLinkWrap02,
+  body.ie .sectionDetail .sectionDetailText,
+  body.ie .sectionDetail .detailBtn03,
+  body.ie .sectionDetail .detailBtn04,
+  body.ie .sectionDetail .sectionDetailNews,
+  body.ie .tourBlockModal .modal-body,
+  body.ie .tourBlockModal h2,
+  body.ie .tourBlockModal .modalDesc02,
+  body.ie .tourBlockModal .modalDesc02_02,
+  body.ie .tourBlockModal .modalDesc06,
+  body.ie .tourBlockModal .modalDesc04, body.ie .tourBlockModal .modalDesc05,
+  body.ie .tourBlockModal .modalDesc05,
+  body.ie .tourBlockModal .modalBtn,
+  body.ie .questionForm h2,
+  body.ie .questionForm .formBody,
+  body.ie .questionForm .formBody p.bold,
+  body.ie .rulesForm h2,
+  body.ie .rulesForm .formBody,
+  body.ie .rulesForm .formBody p.bold,
+  body.ie .rulesForm .formBtnWrap > p,
+  body.ie .rulesForm .formBtnWrap label,
+  body.ie .rulesForm .formBtn,
+  body.ie .snowPeak h2,
+  body.ie .snowPeak,
+  body.ie .snowPeak ul, body.ie .snowPeak .modalDesc02,
+  body.ie .rulesRfrForm h2,
+  body.ie .rulesRfrForm .formBody,
+  body.ie .rulesRfrForm .formBody p.bold,
+  body.ie .rulesRfrForm .modalBtnWrap,
+  body.ie .frfForm h2,
+  body.ie .frfForm .formBody,
+  body.ie .frfForm .formBody p.bold {
+    font-family: 'Noto Sans', sans-serif; }
