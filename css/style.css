@@ -74,7 +74,8 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   font-size: inherit;
   line-height: 1.5;
-  font-family: inherit; }
+  font-family: inherit;
+  font-weight: inherit; }
 
 .container {
   margin: 0 auto; }
@@ -143,7 +144,7 @@ a:hover {
     .topBanner {
       height: 350px; } }
   .topBanner .bannerText {
-    font-family: "KozGoPro-Bold-AlphaNum";
+    font-weight: 700;
     line-height: 1.4;
     font-size: 2.2rem;
     margin-top: 90px;
@@ -202,7 +203,7 @@ a:hover {
       float: left;
       position: relative;
       background-color: #fff;
-      font-family: "KozGoPro-Heavy-AlphaNum";
+      font-weight: 900;
       font-size: 1.7rem;
       letter-spacing: -1px;
       border-radius: 15px;
@@ -234,7 +235,8 @@ a:hover {
             border-right: 5px solid transparent;
             border-top: 6px solid #000; } }
       .topBanner .bannerTextBlock .bannerBtn .italic {
-        font-style: italic; }
+        font-style: italic;
+        font-weight: 900; }
         @media only screen and (max-width: 320px) {
           .topBanner .bannerTextBlock .bannerBtn .italic {
             margin-bottom: 5px; } }
@@ -295,7 +297,6 @@ a:hover {
   display: -webkit-flex;
   display: flex;
   align-items: center;
-  font-family: "KozGoPro-Medium-AlphaNum";
   color: #fff; }
   .sectionInfo .container {
     font-size: 1.7rem;
@@ -306,7 +307,8 @@ a:hover {
     -moz-text-shadow: 2px 2px 20px #000;
     -ms-text-shadow: 2px 2px 20px #000;
     -o-text-shadow: 2px 2px 20px #000;
-    text-shadow: 2px 2px 20px #000; }
+    text-shadow: 2px 2px 20px #000;
+    font-weight: 500; }
     @media only screen and (max-width: 767px) {
       .sectionInfo .container {
         line-height: 2;
@@ -325,14 +327,14 @@ a:hover {
     text-align: center;
     margin-bottom: 12px; }
     .sectionTime .timeHeadBlock .timeHeadBlock01 {
-      font-family: "KozGoPro-Bold-AlphaNum";
+      font-weight: 700;
       margin-bottom: 0;
       font-size: 1.5rem; }
       @media only screen and (max-width: 320px) {
         .sectionTime .timeHeadBlock .timeHeadBlock01 {
           font-size: 1.4rem; } }
     .sectionTime .timeHeadBlock .timeHeadBlock02 {
-      font-family: "KozGoPro-Heavy-AlphaNum";
+      font-weight: 900;
       font-style: italic;
       font-size: 4.69rem;
       line-height: 1;
@@ -344,7 +346,7 @@ a:hover {
           font-size: 4.4rem;
           margin-bottom: -3px; } }
     .sectionTime .timeHeadBlock .timeHeadBlock03 {
-      font-family: "KozGoPro-Heavy-AlphaNum";
+      font-weight: 900;
       font-size: 4rem;
       font-style: italic; }
       @media only screen and (max-width: 767px) {
@@ -360,14 +362,14 @@ a:hover {
             transform: translateY(-4px);
             margin-right: 3px; } }
     .sectionTime .timeHeadBlock .timeHeadBlock04 {
-      font-family: "KozGoPro-Medium-AlphaNum";
+      font-weight: 500;
       line-height: 1.6;
       font-size: 1.125rem; }
       @media only screen and (max-width: 767px) {
         .sectionTime .timeHeadBlock .timeHeadBlock04 {
           font-size: 1.225rem; } }
     .sectionTime .timeHeadBlock .timeHeadBlock05 {
-      font-family: "KozGoPro-Bold-AlphaNum";
+      font-weight: 700;
       font-size: 1.5rem; }
   .sectionTime .timeTour {
     margin-bottom: 54px; }
@@ -468,7 +470,7 @@ a:hover {
   .sectionTime .timeBtnWrap {
     text-align: center; }
     .sectionTime .timeBtnWrap .btnMoreQuestion {
-      font-family: "KozGoPro-Bold-AlphaNum";
+      font-weight: 700;
       color: #000;
       font-size: 1.5rem;
       margin-bottom: 23px;
@@ -500,7 +502,7 @@ a:hover {
       line-height: 85px;
       display: inline-block;
       font-size: 2.18rem;
-      font-family: "KozGoPro-Heavy-AlphaNum";
+      font-weight: 900;
       position: relative;
       border-radius: 15px;
       cursor: pointer; }
@@ -544,7 +546,7 @@ a:hover {
   display: -webkit-flex;
   display: flex;
   align-items: center;
-  font-family: "KozGoPro-Medium-AlphaNum";
+  font-weight: 500;
   color: #fff;
   margin-bottom: 35px;
   -webkit-text-shadow: 2px 2px 20px #000;
@@ -584,7 +586,7 @@ a:hover {
   background: url("../img/section-04-bg.jpg") center center;
   background-size: cover;
   height: 600px;
-  font-family: "KozGoPro-Medium-AlphaNum";
+  font-weight: 500;
   text-align: center;
   color: #fff;
   padding-top: 25px;
@@ -596,7 +598,7 @@ a:hover {
   .sectionInfo03 .sectionInfoText01 {
     font-size: 1.5rem;
     margin-bottom: 15px;
-    font-family: "KozGoPro-Bold-AlphaNum";
+    font-weight: 700;
     margin-right: 73px;
     letter-spacing: 0.5px; }
     @media only screen and (max-width: 767px) {
@@ -623,7 +625,7 @@ a:hover {
         width: 84%; } }
   .sectionInfo03 .sectionInfoText02 {
     font-size: 4rem;
-    font-family: "KozGoPro-Heavy-AlphaNum";
+    font-weight: 900;
     margin-bottom: 5px; }
     @media only screen and (max-width: 767px) {
       .sectionInfo03 .sectionInfoText02 {
@@ -639,14 +641,14 @@ a:hover {
         font-size: 1.025rem;
         margin-bottom: 20px; } }
   .sectionInfo03 .sectionInfoText04 {
-    font-family: "KozGoPro-Bold-AlphaNum";
+    font-weight: 700;
     font-size: 1.5rem;
     letter-spacing: 1.4px; }
   .sectionInfo03 .sectionInfoName {
     position: absolute;
     right: 10px;
     bottom: 10px;
-    font-family: "KozGoPro-Regular-AlphaNum"; }
+    font-weight: 400; }
 
 .sectionDetail {
   text-align: center;
@@ -703,7 +705,7 @@ a:hover {
     .sectionDetail .sectionDetailHead .headCir {
       border: 9px solid #000;
       border-radius: 100%;
-      font-family: "KozGoPro-Heavy-AlphaNum";
+      font-weight: 900;
       font-size: 2.43rem;
       width: 105px;
       height: 105px;
@@ -723,7 +725,7 @@ a:hover {
           height: 50px;
           font-size: 1.8rem; } }
     .sectionDetail .sectionDetailHead .detailHeadText01 {
-      font-family: "KozGoPro-Bold-AlphaNum";
+      font-weight: 700;
       font-size: 1.5rem;
       margin-bottom: 5px; }
       @media only screen and (max-width: 767px) {
@@ -754,7 +756,7 @@ a:hover {
       .sectionDetail .sectionDetailHead .headCir02 span {
         font-size: 30px; }
   .sectionDetail .sectionDetailTitle {
-    font-family: "KozGoPro-Heavy-AlphaNum";
+    font-weight: 900;
     font-size: 3rem;
     margin-bottom: 42px; }
   .sectionDetail .sectionDetailList {
@@ -766,8 +768,8 @@ a:hover {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    font-family: "KozGoPro-Heavy-AlphaNum";
-    margin-bottom: 48px; }
+    margin-bottom: 48px;
+    font-weight: 900; }
     @media only screen and (max-width: 767px) {
       .sectionDetail .sectionDetailList {
         flex-direction: column;
@@ -846,7 +848,7 @@ a:hover {
     margin-bottom: 20px; }
     .sectionDetail .sectionDetailLinkWrap .detailBtn {
       display: inline-block;
-      font-family: "KozGoPro-Bold-AlphaNum";
+      font-weight: 700;
       font-size: 1.5rem;
       color: #000;
       position: relative;
@@ -878,8 +880,9 @@ a:hover {
             border-left: 9px solid #000;
             right: -13px; } }
   .sectionDetail .sectionDetailLinkWrap02 {
-    font-family: "KozGoPro-Heavy-AlphaNum";
     margin-bottom: 76px; }
+    .sectionDetail .sectionDetailLinkWrap02 * {
+      font-weight: 900; }
     @media only screen and (max-width: 800px) {
       .sectionDetail .sectionDetailLinkWrap02 {
         margin-bottom: 30px; } }
@@ -975,7 +978,7 @@ a:hover {
           position: absolute;
           bottom: 8px;
           left: 15px;
-          font-family: "KozGoPro-Regular-AlphaNum"; }
+          font-weight: 400; }
           @media only screen and (max-width: 767px) {
             .sectionDetail .sectionDetailLinkWrap02 .detailBtn02.detailBtn02_02 small {
               bottom: 5px; } }
@@ -1002,7 +1005,7 @@ a:hover {
             .sectionDetail .sectionDetailLinkWrap02 .detailBtn02.detailBtn02_02 .detailBtn02Cir {
               border: 3px solid #000; } }
   .sectionDetail .sectionDetailText {
-    font-family: "KozGoPro-Bold-AlphaNum";
+    font-weight: 700;
     font-size: 1.5rem;
     line-height: 1.2;
     margin-bottom: 12px; }
@@ -1015,10 +1018,10 @@ a:hover {
     height: 130px;
     background-image: url("../img/btn-bg.png");
     color: #fff;
-    font-family: "KozGoPro-Heavy-AlphaNum";
+    font-weight: 900;
     position: relative;
     background-size: cover;
-    font-size: 2.5rem;
+    font-size: 2.4rem;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -1105,7 +1108,7 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: "KozGoPro-Heavy-AlphaNum";
+    font-weight: 900;
     font-size: 1.875rem;
     color: #fff;
     position: relative;
@@ -1202,11 +1205,11 @@ a:hover {
           width: 100%;
           margin-bottom: 11px; } }
     .sectionDetail .sectionDetailNews .newsText03 {
-      font-family: "KozGoPro-Heavy-AlphaNum";
+      font-weight: 900;
       font-size: 2.5rem;
       margin-bottom: 8px; }
     .sectionDetail .sectionDetailNews .newsText04 {
-      font-family: "KozGoPro-Bold-AlphaNum";
+      font-weight: 700;
       font-size: 1.5rem;
       line-height: 1.2; }
       @media only screen and (max-width: 767px) {
@@ -1229,7 +1232,7 @@ a:hover {
       padding: 47px 28px 27px; } }
 .tourBlockModal .modal-body {
   padding: 0;
-  font-family: "KozGoPro-Regular-AlphaNum";
+  font-weight: 400;
   margin-bottom: 30px; }
   @media only screen and (max-width: 767px) {
     .tourBlockModal .modal-body {
@@ -1250,7 +1253,7 @@ a:hover {
   color: #fff;
   background-color: #000;
   position: relative;
-  font-family: "KozGoPro-Heavy-AlphaNum";
+  font-weight: 900;
   border-radius: 10px;
   border: none; }
   @media only screen and (max-width: 767px) {
@@ -1306,7 +1309,7 @@ a:hover {
       padding-left: 0; } }
 .tourBlockModal h2 {
   font-size: 1.5rem;
-  font-family: "KozGoPro-Bold-AlphaNum";
+  font-weight: 700;
   margin-bottom: 11px; }
   @media only screen and (max-width: 767px) {
     .tourBlockModal h2 {
@@ -1330,7 +1333,7 @@ a:hover {
       padding: 0 27px; } }
 .tourBlockModal .modalDesc02 {
   font-size: 1.125rem;
-  font-family: "KozGoPro-Medium-AlphaNum";
+  font-weight: 500;
   margin-bottom: 22px; }
   .tourBlockModal .modalDesc02 span {
     font-size: 1.875rem;
@@ -1351,11 +1354,11 @@ a:hover {
       margin-right: 3px; } }
 .tourBlockModal .modalDesc03 {
   font-size: 1.125rem;
-  font-family: "KozGoPro-Medium-AlphaNum";
+  font-weight: 500;
   line-height: 1.75; }
 .tourBlockModal .modalDesc02_02 {
   font-size: 1.125rem;
-  font-family: "KozGoPro-Medium-AlphaNum";
+  font-weight: 500;
   margin-bottom: 22px; }
   .tourBlockModal .modalDesc02_02 span {
     font-size: 1.875rem;
@@ -1377,7 +1380,7 @@ a:hover {
       .tourBlockModal .modalDesc02_02 .visible-xs.last {
         margin-left: 25px !important; } }
 .tourBlockModal .modalDesc06 {
-  font-family: "KozGoPro-Medium-AlphaNum";
+  font-weight: 500;
   margin-bottom: 10px;
   line-height: 1.8; }
   .tourBlockModal .modalDesc06 .col_left {
@@ -1403,7 +1406,7 @@ a:hover {
       .tourBlockModal .modalDesc06 .visible-xs.last {
         margin-left: 25px !important; } }
 .tourBlockModal .modalDesc04, .tourBlockModal .modalDesc05 {
-  font-family: "KozGoPro-Medium-AlphaNum";
+  font-weight: 500;
   font-size: 0.75rem;
   line-height: 1.6; }
   @media only screen and (max-width: 767px) {
@@ -1428,7 +1431,7 @@ a:hover {
     margin-left: 52px; }
 
 .snowPeak {
-  font-family: "KozGoPro-Regular-AlphaNum"; }
+  font-weight: 400; }
   .snowPeak .comingSoon .comingSoonBg {
     top: -20px;
     left: -10px;
@@ -1475,7 +1478,7 @@ a:hover {
       .snowPeak .col_right {
         padding-left: 0; } }
   .snowPeak h2 {
-    font-family: "KozGoPro-Bold-AlphaNum";
+    font-weight: 700;
     font-size: 1.5rem;
     line-height: 1.3;
     margin-bottom: 23px; }
@@ -1507,10 +1510,10 @@ a:hover {
         text-align: center; } }
   .snowPeak ul, .snowPeak .modalDesc02 {
     font-size: 1.1rem;
-    font-family: "KozGoPro-Medium-AlphaNum";
+    font-weight: 500;
     line-height: 1.6; }
   .snowPeak .modalBtnWrap {
-    font-family: "KozGoPro-Heavy-AlphaNum";
+    font-weight: 900;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -1617,7 +1620,7 @@ a:hover {
           position: absolute;
           bottom: 4px;
           left: 23px;
-          font-family: "KozGoPro-Regular-AlphaNum"; }
+          font-weight: 400; }
           @media only screen and (max-width: 800px) {
             .snowPeak .modalBtnWrap .detailBtn02.detailBtn02_02 small {
               left: 2px; } }
@@ -1644,7 +1647,7 @@ a:hover {
               border: 3px solid #000; } }
 
 .questionForm {
-  font-family: "KozGoPro-Regular-AlphaNum"; }
+  font-weight: 400; }
   .questionForm .modal-content {
     border-radius: 0;
     border: none;
@@ -1671,7 +1674,7 @@ a:hover {
   .questionForm h2 {
     text-align: center;
     font-size: 2.375rem;
-    font-family: "KozGoPro-Heavy-AlphaNum";
+    font-weight: 900;
     margin-bottom: 15px;
     line-height: 0; }
     @media only screen and (max-width: 767px) {
@@ -1680,20 +1683,22 @@ a:hover {
         margin-bottom: 10px; } }
     .questionForm h2 .title01 {
       font-size: 2.75rem;
-      font-style: italic; }
+      font-style: italic;
+      font-weight: 900; }
     .questionForm h2 img {
       transform: translateY(-4px); }
     .questionForm h2 .title02 {
       font-size: 1.875rem;
       display: block;
-      margin-top: 10px; }
+      margin-top: 10px;
+      font-weight: 900; }
       @media only screen and (max-width: 767px) {
         .questionForm h2 .title02 {
           font-size: 1.9rem; } }
   .questionForm .formBody {
     height: 542px;
     overflow-y: scroll;
-    font-family: "KozGoPro-Regular-AlphaNum";
+    font-weight: 400;
     font-size: 0.875rem;
     text-align: justify;
     font-weight: bold;
@@ -1710,7 +1715,7 @@ a:hover {
       margin-bottom: 23px;
       margin-left: 17px; }
       .questionForm .formBody p.bold {
-        font-family: "KozGoPro-Bold-AlphaNum";
+        font-weight: 700;
         margin-bottom: 0;
         margin-left: 0; }
   .questionForm .scrollTopPopup {
@@ -1721,7 +1726,7 @@ a:hover {
     bottom: -30px; }
 
 .frfForm {
-  font-family: "KozGoPro-Regular-AlphaNum"; }
+  font-weight: 400; }
   .frfForm .modal-content {
     border-radius: 0;
     border: none;
@@ -1748,7 +1753,7 @@ a:hover {
   .frfForm h2 {
     text-align: center;
     font-size: 2.375rem;
-    font-family: "KozGoPro-Heavy-AlphaNum";
+    font-weight: 900;
     margin-bottom: 15px; }
     @media only screen and (max-width: 767px) {
       .frfForm h2 {
@@ -1769,7 +1774,7 @@ a:hover {
   .frfForm .formBody {
     height: 542px;
     overflow-y: scroll;
-    font-family: "KozGoPro-Regular-AlphaNum";
+    font-weight: 400;
     font-size: 0.875rem;
     text-align: justify;
     font-weight: bold;
@@ -1786,7 +1791,7 @@ a:hover {
       margin-bottom: 23px;
       margin-left: 17px; }
       .frfForm .formBody p.bold {
-        font-family: "KozGoPro-Bold-AlphaNum";
+        font-weight: 700;
         margin-bottom: 0;
         margin-left: 0; }
   .frfForm .scrollTopPopup {
@@ -1797,7 +1802,7 @@ a:hover {
     bottom: -30px; }
 
 .rulesForm {
-  font-family: "KozGoPro-Regular-AlphaNum"; }
+  font-weight: 400; }
   .rulesForm .modal-content {
     border-radius: 0;
     border: none;
@@ -1824,12 +1829,12 @@ a:hover {
   .rulesForm h2 {
     text-align: center;
     font-size: 1.875rem;
-    font-family: "KozGoPro-Heavy-AlphaNum";
+    font-weight: 900;
     margin-bottom: 15px; }
   .rulesForm .formBody {
     height: 536px;
     overflow-y: scroll;
-    font-family: "KozGoPro-Regular-AlphaNum";
+    font-weight: 400;
     font-size: 0.875rem;
     text-align: justify;
     font-weight: bold;
@@ -1852,7 +1857,7 @@ a:hover {
       .rulesForm .formBody p span {
         margin-left: -15px; }
       .rulesForm .formBody p.bold {
-        font-family: "KozGoPro-Bold-AlphaNum";
+        font-weight: 700;
         margin-left: 0; }
       .rulesForm .formBody p.subTitle {
         margin-left: 0; }
@@ -1866,7 +1871,7 @@ a:hover {
         border-top: none; } }
     .rulesForm .formBtnWrap label {
       font-size: 1.875rem;
-      font-family: "KozGoPro-Heavy-AlphaNum"; }
+      font-weight: 900; }
       .rulesForm .formBtnWrap label input[type="checkbox"] {
         display: none; }
       @media only screen and (max-width: 767px) {
@@ -1874,7 +1879,7 @@ a:hover {
           font-size: 1.3rem; } }
     .rulesForm .formBtnWrap > p {
       font-size: 1.5rem;
-      font-family: "KozGoPro-Medium-AlphaNum";
+      font-weight: 500;
       margin-bottom: 5px; }
       @media only screen and (max-width: 767px) {
         .rulesForm .formBtnWrap > p {
@@ -1928,7 +1933,7 @@ a:hover {
     background-color: #000;
     color: #4c4c4c;
     border-radius: 15px;
-    font-family: "KozGoPro-Heavy-AlphaNum";
+    font-weight: 900;
     cursor: no-drop; }
     .rulesForm .formBtn:hover {
       opacity: 1; }
@@ -1979,7 +1984,7 @@ a:hover {
     bottom: 0; }
 
 .rulesRfrForm {
-  font-family: "KozGoPro-Regular-AlphaNum"; }
+  font-weight: 400; }
   .rulesRfrForm .comingSoon .comingSoonBg {
     top: 50px;
     left: 0;
@@ -2016,12 +2021,12 @@ a:hover {
   .rulesRfrForm h2 {
     text-align: center;
     font-size: 1.875rem;
-    font-family: "KozGoPro-Heavy-AlphaNum";
+    font-weight: 900;
     margin-bottom: 15px; }
   .rulesRfrForm .formBody {
     height: 536px;
     overflow-y: scroll;
-    font-family: "KozGoPro-Regular-AlphaNum";
+    font-weight: 400;
     font-size: 0.875rem;
     text-align: justify;
     font-weight: bold;
@@ -2044,12 +2049,12 @@ a:hover {
       .rulesRfrForm .formBody p span {
         margin-left: -15px; }
       .rulesRfrForm .formBody p.bold {
-        font-family: "KozGoPro-Bold-AlphaNum";
+        font-weight: 700;
         margin-left: 0; }
       .rulesRfrForm .formBody p.subTitle {
         margin-left: 0; }
   .rulesRfrForm .modalBtnWrap {
-    font-family: "KozGoPro-Heavy-AlphaNum";
+    font-weight: 900;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -2159,7 +2164,7 @@ a:hover {
           position: absolute;
           bottom: 4px;
           left: 23px;
-          font-family: "KozGoPro-Regular-AlphaNum"; }
+          font-weight: 400; }
           @media only screen and (max-width: 800px) {
             .rulesRfrForm .modalBtnWrap .detailBtn02.detailBtn02_02 small {
               left: 2px; } }
@@ -2194,14 +2199,14 @@ a:hover {
         border-top: none; } }
     .rulesRfrForm .formBtnWrap label {
       font-size: 1.875rem;
-      font-family: "KozGoPro-Heavy-AlphaNum"; }
+      font-weight: 900; }
       .rulesRfrForm .formBtnWrap label input[type="checkbox"] {
         display: none; }
       @media only screen and (max-width: 767px) {
         .rulesRfrForm .formBtnWrap label {
           font-size: 1.3rem; } }
     .rulesRfrForm .formBtnWrap > p {
-      font-family: "KozGoPro-Medium-AlphaNum";
+      font-weight: 500;
       font-size: 1.2rem;
       margin-bottom: 5px; }
     .rulesRfrForm .formBtnWrap .checkboxStyle {
@@ -2250,7 +2255,7 @@ a:hover {
     background-color: #000;
     color: #fff;
     border-radius: 15px;
-    font-family: "KozGoPro-Heavy-AlphaNum"; }
+    font-weight: 900; }
     @media only screen and (max-width: 767px) {
       .rulesRfrForm .formBtn {
         width: 100%;
@@ -2327,7 +2332,7 @@ a:hover {
     background-color: rgba(0, 0, 0, 0.8);
     font-size: 40px;
     color: #fff;
-    font-family: "KozGoPro-Heavy-AlphaNum";
+    font-weight: 900;
     border-radius: 8px; }
     @media only screen and (max-width: 1160px) {
       .comingSoon .comingSoonBg {
@@ -2422,63 +2427,3 @@ iframe {
   .nativeAndroid .rulesRfrForm .modalBtnWrap .detailBtn02 .detailBtn02Cir {
     margin-top: -25px;
     padding-top: 8px; }
-
-body.ie {
-  font-family: 'Noto Sans', sans-serif !important; }
-  body.ie .sectionTime .timeHeadBlock .timeHeadBlock02,
-  body.ie .questionForm h2 {
-    font-weight: 700;
-    font-style: italic; }
-  body.ie .sectionTime .timeHeadBlock .timeHeadBlock02,
-  body.ie .topBanner .bannerText,
-  body.ie .topBanner .bannerTextBlock .bannerBtn,
-  body.ie .sectionInfo,
-  body.ie .sectionTime .timeHeadBlock .timeHeadBlock01,
-  body.ie .sectionTime .timeHeadBlock .timeHeadBlock03,
-  body.ie .sectionTime .timeHeadBlock .timeHeadBlock04,
-  body.ie .sectionTime .timeHeadBlock .timeHeadBlock05,
-  body.ie .sectionTime .timeBtnWrap .btnMoreQuestion,
-  body.ie .sectionTime .timeBtnWrap .btnTerm,
-  body.ie .sectionInfo02,
-  body.ie .sectionInfo03 .sectionInfoText01,
-  body.ie .sectionInfo03 .sectionInfoText02,
-  body.ie .sectionInfo03,
-  body.ie .sectionDetail .sectionDetailHead .headCir,
-  body.ie .sectionDetail .sectionDetailHead .detailHeadText01,
-  body.ie .comingSoon .comingSoonBg,
-  body.ie .sectionDetail .sectionDetailTitle,
-  body.ie .sectionDetail .sectionDetailList,
-  body.ie .sectionDetail .sectionDetailLinkWrap .detailBtn,
-  body.ie .sectionDetail .sectionDetailLinkWrap02,
-  body.ie .sectionDetail .sectionDetailText,
-  body.ie .sectionDetail .detailBtn03,
-  body.ie .sectionDetail .detailBtn04,
-  body.ie .sectionDetail .sectionDetailNews,
-  body.ie .tourBlockModal .modal-body,
-  body.ie .tourBlockModal h2,
-  body.ie .tourBlockModal .modalDesc02,
-  body.ie .tourBlockModal .modalDesc02_02,
-  body.ie .tourBlockModal .modalDesc06,
-  body.ie .tourBlockModal .modalDesc04, body.ie .tourBlockModal .modalDesc05,
-  body.ie .tourBlockModal .modalDesc05,
-  body.ie .tourBlockModal .modalBtn,
-  body.ie .questionForm h2,
-  body.ie .questionForm .formBody,
-  body.ie .questionForm .formBody p.bold,
-  body.ie .rulesForm h2,
-  body.ie .rulesForm .formBody,
-  body.ie .rulesForm .formBody p.bold,
-  body.ie .rulesForm .formBtnWrap > p,
-  body.ie .rulesForm .formBtnWrap label,
-  body.ie .rulesForm .formBtn,
-  body.ie .snowPeak h2,
-  body.ie .snowPeak,
-  body.ie .snowPeak ul, body.ie .snowPeak .modalDesc02,
-  body.ie .rulesRfrForm h2,
-  body.ie .rulesRfrForm .formBody,
-  body.ie .rulesRfrForm .formBody p.bold,
-  body.ie .rulesRfrForm .modalBtnWrap,
-  body.ie .frfForm h2,
-  body.ie .frfForm .formBody,
-  body.ie .frfForm .formBody p.bold {
-    font-family: 'Noto Sans', sans-serif; }
