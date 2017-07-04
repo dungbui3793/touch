@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee955311-6419-4b08-a9bf-b1c28c88fb12" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/open17su/img/section-img-06-sp-bg.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/open17su/img/section-img-03.png" afterPath="$PROJECT_DIR$/open17su/img/section-img-03.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/open17su/css/style.css" afterPath="$PROJECT_DIR$/open17su/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/open17su/css/style.scss" afterPath="$PROJECT_DIR$/open17su/css/style.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/open17su/index.html" afterPath="$PROJECT_DIR$/open17su/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,33 +21,22 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/open17su/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="378" column="67" lean-forward="false" selection-start-line="378" selection-start-column="67" selection-end-line="378" selection-end-column="67" />
+            <state relative-caret-position="269">
+              <caret line="95" column="94" lean-forward="false" selection-start-line="95" selection-start-column="72" selection-end-line="95" selection-end-column="94" />
               <folding>
-                <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#23829#23835#0" expanded="true" />
-                <element signature="e#23835#23841#0" expanded="true" />
-                <element signature="e#23841#23847#0" expanded="true" />
-                <element signature="e#23847#23853#0" expanded="true" />
-                <element signature="e#23853#23859#0" expanded="true" />
-                <element signature="e#23859#23865#0" expanded="true" />
-                <element signature="e#23865#23871#0" expanded="true" />
-                <element signature="e#23871#23877#0" expanded="true" />
-                <element signature="e#23877#23883#0" expanded="true" />
-                <element signature="e#23883#23889#0" expanded="true" />
-                <element signature="e#23889#23895#0" expanded="true" />
-                <element signature="e#23895#23901#0" expanded="true" />
+                <element signature="e#23956#23962#0" expanded="true" />
+                <element signature="e#23962#23968#0" expanded="true" />
+                <element signature="e#23968#23974#0" expanded="true" />
+                <element signature="e#23974#23980#0" expanded="true" />
+                <element signature="e#23980#23986#0" expanded="true" />
+                <element signature="e#23986#23992#0" expanded="true" />
+                <element signature="e#23992#23998#0" expanded="true" />
+                <element signature="e#23998#24004#0" expanded="true" />
+                <element signature="e#24004#24010#0" expanded="true" />
+                <element signature="e#24010#24016#0" expanded="true" />
+                <element signature="e#24016#24022#0" expanded="true" />
+                <element signature="e#24022#24028#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/open17su/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -53,35 +44,21 @@
       <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/open17su/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21090">
-              <caret line="2851" column="19" lean-forward="false" selection-start-line="2851" selection-start-column="19" selection-end-line="2851" selection-end-column="19" />
+            <state relative-caret-position="578">
+              <caret line="2056" column="26" lean-forward="false" selection-start-line="2056" selection-start-column="26" selection-end-line="2056" selection-end-column="26" />
               <folding>
-                <element signature="e#1737#5195#0" expanded="false" />
-                <element signature="e#5210#5700#0" expanded="false" />
-                <element signature="e#26035#31107#0" expanded="false" />
-                <element signature="e#31119#36170#0" expanded="false" />
-                <element signature="e#36186#37874#0" expanded="false" />
-                <element signature="e#37885#39505#0" expanded="false" />
-                <element signature="e#39519#43616#0" expanded="false" />
-                <element signature="e#43632#50721#0" expanded="false" />
-                <element signature="e#50730#50887#0" expanded="false" />
-                <element signature="e#55032#55222#0" expanded="false" />
-                <element signature="e#57684#57823#0" expanded="false" />
-                <element signature="e#57842#57983#0" expanded="false" />
-                <element signature="e#58572#59504#0" expanded="false" />
-                <element signature="e#59522#60319#0" expanded="false" />
-                <element signature="e#60349#60517#0" expanded="false" />
+                <element signature="e#1737#5302#0" expanded="false" />
+                <element signature="e#5317#5807#0" expanded="false" />
+                <element signature="e#26408#31480#0" expanded="false" />
+                <element signature="e#44551#51665#0" expanded="false" />
+                <element signature="e#51674#51831#0" expanded="false" />
+                <element signature="e#55976#56166#0" expanded="false" />
+                <element signature="e#58628#58767#0" expanded="false" />
+                <element signature="e#58786#58927#0" expanded="false" />
+                <element signature="e#59516#60448#0" expanded="false" />
+                <element signature="e#60466#61263#0" expanded="false" />
+                <element signature="e#61293#61461#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/open17su/scss/_variables.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="19" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -90,36 +67,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>・JTB旅行券10万円分</find>
-      <find>よくある質問</find>
-      <find>以下のいずれかに該当する場合、当選の権利を無効とさせていただきますのでご注意ください。</find>
-      <find>tourBlock tourBlock01 wow fadeInUp</find>
-      <find>47px 28px 27px</find>
-      <find>tourBlock</find>
-      <find>font-fa</find>
-      <find>.snowPeak</find>
-      <find>modal</find>
-      <find>h2</find>
-      <find>2組2名様</find>
-      <find>sectionDetailList wow fadeInUp</find>
-      <find>sectionDetailLinkWrap02</find>
-      <find>sectionDetailList</find>
-      <find>sectionDetailLinkWrap02 wow fadeInUp</find>
-      <find>sectionDetailLinkWrap wow fadeInUp</find>
-      <find>06-sp</find>
-      <find>06-sp-n</find>
-      <find>class=&quot;sectionDetailLinkWrap02 wow fadeInUp clearfix&quot;</find>
-      <find>ga('send', 'event', 'open17su', 'click_out', 'Follow', 1);</find>
-      <find>detailBtn02_02Text</find>
-      <find>detailBtn02</find>
-      <find>detailBtn03 wow fadeInUp hidden-xs</find>
-      <find>detailBtn03</find>
-      <find>coming soon</find>
       <find>sectionDetailNews</find>
-      <find>＠id_creditをフォローする</find>
-      <find>＠id_creditをフォローする</find>
       <find>section-img-06-sp-bg.png</find>
       <find>06.</find>
+      <find>img/section-img-03.png</find>
+      <find>bannerText02</find>
+      <find>sectionDetailLinkWrap02 wow fadeInUp clearfix</find>
+      <find>bannerTextBlock</find>
+      <find>frfForm</find>
+      <find>キャンペーン期間中に、「iD」公式Twitterアカウント（＠id</find>
+      <find>rulesRfrForm</find>
+      <find>topBanner</find>
+      <find>sectionInfo02</find>
+      <find>comingSoonBg</find>
+      <find>.formBody</find>
+      <find>bannerBtn</find>
+      <find>sectionDetailLinkWrap02</find>
+      <find>＠id_creditをフォローする</find>
+      <find>detailHeadText01</find>
+      <find>bannerText wow fadeInUp</find>
+      <find>sectionInfo02 wow fadeInUp</find>
+      <find>※「iD」公式Twitterアカウント（@id_credit）のフォローを解除した場合は、応募が無効となりますの　でご注意ください</find>
+      <find>sectionDetailText</find>
+      <find>sectionInfoText04 visible-xs wow fadeInUp</find>
+      <find>sectionInfoName wow fadeInUp</find>
+      <find>.snowPeak h2 span</find>
+      <find>.snowPeak</find>
+      <find>40px 24px 3px</find>
+      <find>当選発表は、当選者へのダイレクトメッセージでの通知をもって発表にかえさせていただきます。ご連絡は</find>
+      <find>formBtnWrap</find>
+      <find>キャンプはもちろん、野外フェスなどで重宝するキャンピングセット。</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -199,42 +176,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="scss" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="campaign" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="campaign" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="open17su" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="campaign" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="campaign" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="open17su" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="img" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -246,46 +187,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="campaign" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="open17su" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="campaign" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="campaign" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="campaign" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="campaign" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -300,8 +201,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/open17su" />
       <recent name="$PROJECT_DIR$/open17su/img" />
+      <recent name="$PROJECT_DIR$/open17su" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -399,12 +300,12 @@
       <option name="presentableId" value="Default" />
       <updated>1498635660092</updated>
       <workItem from="1498635661441" duration="24806000" />
-      <workItem from="1499046363709" duration="438000" />
+      <workItem from="1499046363709" duration="7551000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25244000" />
+    <option name="totallyTimeSpent" value="32357000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="977" extended-state="6" />
@@ -445,19 +346,18 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#23829#23835#0" expanded="true" />
-            <element signature="e#23835#23841#0" expanded="true" />
-            <element signature="e#23841#23847#0" expanded="true" />
-            <element signature="e#23847#23853#0" expanded="true" />
-            <element signature="e#23853#23859#0" expanded="true" />
-            <element signature="e#23859#23865#0" expanded="true" />
-            <element signature="e#23865#23871#0" expanded="true" />
-            <element signature="e#23871#23877#0" expanded="true" />
-            <element signature="e#23877#23883#0" expanded="true" />
-            <element signature="e#23883#23889#0" expanded="true" />
-            <element signature="e#23889#23895#0" expanded="true" />
-            <element signature="e#23895#23901#0" expanded="true" />
+            <element signature="e#23956#23962#0" expanded="true" />
+            <element signature="e#23962#23968#0" expanded="true" />
+            <element signature="e#23968#23974#0" expanded="true" />
+            <element signature="e#23974#23980#0" expanded="true" />
+            <element signature="e#23980#23986#0" expanded="true" />
+            <element signature="e#23986#23992#0" expanded="true" />
+            <element signature="e#23992#23998#0" expanded="true" />
+            <element signature="e#23998#24004#0" expanded="true" />
+            <element signature="e#24004#24010#0" expanded="true" />
+            <element signature="e#24010#24016#0" expanded="true" />
+            <element signature="e#24016#24022#0" expanded="true" />
+            <element signature="e#24022#24028#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -475,21 +375,17 @@
         <state relative-caret-position="42765">
           <caret line="2851" column="19" lean-forward="false" selection-start-line="2851" selection-start-column="19" selection-end-line="2851" selection-end-column="19" />
           <folding>
-            <element signature="e#1737#5195#0" expanded="false" />
-            <element signature="e#5210#5700#0" expanded="false" />
-            <element signature="e#26035#31107#0" expanded="false" />
-            <element signature="e#31119#36170#0" expanded="false" />
-            <element signature="e#36186#37874#0" expanded="false" />
-            <element signature="e#37885#39505#0" expanded="false" />
-            <element signature="e#39519#43616#0" expanded="false" />
-            <element signature="e#43632#50721#0" expanded="false" />
-            <element signature="e#50730#50887#0" expanded="false" />
-            <element signature="e#55032#55222#0" expanded="false" />
-            <element signature="e#57684#57823#0" expanded="false" />
-            <element signature="e#57842#57983#0" expanded="false" />
-            <element signature="e#58572#59504#0" expanded="false" />
-            <element signature="e#59522#60319#0" expanded="false" />
-            <element signature="e#60349#60517#0" expanded="false" />
+            <element signature="e#1737#5302#0" expanded="false" />
+            <element signature="e#5317#5807#0" expanded="false" />
+            <element signature="e#26408#31480#0" expanded="false" />
+            <element signature="e#44551#51665#0" expanded="false" />
+            <element signature="e#51674#51831#0" expanded="false" />
+            <element signature="e#55976#56166#0" expanded="false" />
+            <element signature="e#58628#58767#0" expanded="false" />
+            <element signature="e#58786#58927#0" expanded="false" />
+            <element signature="e#59516#60448#0" expanded="false" />
+            <element signature="e#60466#61263#0" expanded="false" />
+            <element signature="e#61293#61461#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -537,13 +433,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="4" column="17385" lean-forward="false" selection-start-line="4" selection-start-column="17383" selection-end-line="4" selection-end-column="17385" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/open17su/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -553,30 +442,6 @@
         <state relative-caret-position="105">
           <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="19" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/open17su/css/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21090">
-          <caret line="2851" column="19" lean-forward="false" selection-start-line="2851" selection-start-column="19" selection-end-line="2851" selection-end-column="19" />
-          <folding>
-            <element signature="e#1737#5195#0" expanded="false" />
-            <element signature="e#5210#5700#0" expanded="false" />
-            <element signature="e#26035#31107#0" expanded="false" />
-            <element signature="e#31119#36170#0" expanded="false" />
-            <element signature="e#36186#37874#0" expanded="false" />
-            <element signature="e#37885#39505#0" expanded="false" />
-            <element signature="e#39519#43616#0" expanded="false" />
-            <element signature="e#43632#50721#0" expanded="false" />
-            <element signature="e#50730#50887#0" expanded="false" />
-            <element signature="e#55032#55222#0" expanded="false" />
-            <element signature="e#57684#57823#0" expanded="false" />
-            <element signature="e#57842#57983#0" expanded="false" />
-            <element signature="e#58572#59504#0" expanded="false" />
-            <element signature="e#59522#60319#0" expanded="false" />
-            <element signature="e#60349#60517#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -591,24 +456,51 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/open17su/index.html">
+    <entry file="file://$PROJECT_DIR$/open17su/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="378" column="67" lean-forward="false" selection-start-line="378" selection-start-column="67" selection-end-line="378" selection-end-column="67" />
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/open17su/css/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="2056" column="26" lean-forward="false" selection-start-line="2056" selection-start-column="26" selection-end-line="2056" selection-end-column="26" />
           <folding>
-            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#23829#23835#0" expanded="true" />
-            <element signature="e#23835#23841#0" expanded="true" />
-            <element signature="e#23841#23847#0" expanded="true" />
-            <element signature="e#23847#23853#0" expanded="true" />
-            <element signature="e#23853#23859#0" expanded="true" />
-            <element signature="e#23859#23865#0" expanded="true" />
-            <element signature="e#23865#23871#0" expanded="true" />
-            <element signature="e#23871#23877#0" expanded="true" />
-            <element signature="e#23877#23883#0" expanded="true" />
-            <element signature="e#23883#23889#0" expanded="true" />
-            <element signature="e#23889#23895#0" expanded="true" />
-            <element signature="e#23895#23901#0" expanded="true" />
+            <element signature="e#1737#5302#0" expanded="false" />
+            <element signature="e#5317#5807#0" expanded="false" />
+            <element signature="e#26408#31480#0" expanded="false" />
+            <element signature="e#44551#51665#0" expanded="false" />
+            <element signature="e#51674#51831#0" expanded="false" />
+            <element signature="e#55976#56166#0" expanded="false" />
+            <element signature="e#58628#58767#0" expanded="false" />
+            <element signature="e#58786#58927#0" expanded="false" />
+            <element signature="e#59516#60448#0" expanded="false" />
+            <element signature="e#60466#61263#0" expanded="false" />
+            <element signature="e#61293#61461#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/open17su/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="95" column="94" lean-forward="false" selection-start-line="95" selection-start-column="72" selection-end-line="95" selection-end-column="94" />
+          <folding>
+            <element signature="e#23956#23962#0" expanded="true" />
+            <element signature="e#23962#23968#0" expanded="true" />
+            <element signature="e#23968#23974#0" expanded="true" />
+            <element signature="e#23974#23980#0" expanded="true" />
+            <element signature="e#23980#23986#0" expanded="true" />
+            <element signature="e#23986#23992#0" expanded="true" />
+            <element signature="e#23992#23998#0" expanded="true" />
+            <element signature="e#23998#24004#0" expanded="true" />
+            <element signature="e#24004#24010#0" expanded="true" />
+            <element signature="e#24010#24016#0" expanded="true" />
+            <element signature="e#24016#24022#0" expanded="true" />
+            <element signature="e#24022#24028#0" expanded="true" />
           </folding>
         </state>
       </provider>

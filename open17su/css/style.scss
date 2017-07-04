@@ -152,12 +152,13 @@ a:hover {
     }
     .bannerText02 {
       text-align: center;
-      margin-bottom: 15px;
+      margin-bottom: 8px;
+      font-weight: 700;
+      font-size: 2.25rem;
+      font-style: italic;
+      color: #fff;
       @media #{$info-phone} {
-        width: 51%;
-        margin-right: auto;
-        margin-left: auto;
-        margin-bottom: 12px;
+        font-size: 1.8rem;
       }
     }
 
@@ -209,6 +210,10 @@ a:hover {
           border-left: 5px solid transparent;
           border-right: 5px solid transparent;
           border-top: 6px solid #000;
+        }
+        @media #{$info-phone-4} {
+          bottom: 13px;
+          right: 8px;
         }
       }
       .italic {
@@ -733,6 +738,9 @@ a:hover {
       @media #{$info-phone} {
         margin-bottom: 0;
       }
+      @media #{$info-phone-4} {
+        font-size: 1.4rem;
+      }
     }
 
     .headCir02 {
@@ -931,6 +939,9 @@ a:hover {
           border-left: 10px solid #fff;
           right: 15px;
         }
+        @media #{$info-phone-4} {
+          right: 8px;
+        }
       }
       .detailBtn02Cir {
         width: 58px;
@@ -992,6 +1003,9 @@ a:hover {
             border-left: 10px solid #000;
             right: 12px;
           }
+          @media #{$info-phone-4} {
+            right: 5px;
+          }
         }
         .detailBtn02Cir {
           color: #000;
@@ -1011,6 +1025,9 @@ a:hover {
     margin-bottom: 12px;
     @media #{$info-phone} {
       font-size: 1.3rem;
+    }
+    @media #{$info-phone-4} {
+      font-size: 1.2rem;
     }
   }
 
@@ -1497,6 +1514,9 @@ a:hover {
       background-color: #fff;
       padding: 40px 24px 3px;
     }
+    @media #{$info-phone-4} {
+      padding: 40px 10px 3px;
+    }
   }
 
   .close {
@@ -1553,6 +1573,9 @@ a:hover {
       }
       @media #{$info-phone} {
         font-size: 2.9rem;
+      }
+      @media #{$info-phone-4} {
+        font-size: 2.8rem;
       }
       small {
         color: #000;
@@ -1640,6 +1663,9 @@ a:hover {
           border-left: 10px solid #fff;
           right: 15px;
         }
+        @media #{$info-phone-4} {
+          right: 8px;
+        }
       }
       .detailBtn02Cir {
         font-size: 2.1rem;
@@ -1704,6 +1730,9 @@ a:hover {
           @media #{$info-phone} {
             border-left: 10px solid #000;
             right: 12px;
+          }
+          @media #{$info-phone-4} {
+            right: 5px;
           }
         }
         .detailBtn02Cir {
@@ -1796,10 +1825,14 @@ a:hover {
       height: auto;
       font-size: 1rem;
       overflow: hidden;
+      letter-spacing: 0;
     }
     p {
       margin-bottom: 23px;
       margin-left: 17px;
+      @media #{$info-phone} {
+        margin-bottom: 10px;
+      }
       &.bold {
         font-weight: 700;
         margin-bottom: 0;
@@ -1891,10 +1924,14 @@ a:hover {
       height: auto;
       font-size: 1rem;
       overflow: hidden;
+      letter-spacing: 0;
     }
     p {
       margin-bottom: 23px;
       margin-left: 17px;
+      @media #{$info-phone} {
+        margin-bottom: 10px;
+      }
       &.bold {
         font-weight: 700;
         margin-bottom: 0;
@@ -1969,6 +2006,7 @@ a:hover {
       height: auto;
       overflow-y: hidden;
       margin-bottom: 0;
+      letter-spacing: 0;
     }
     p {
       margin-bottom: 23px;
@@ -2014,7 +2052,9 @@ a:hover {
       margin-bottom: 5px;
       @media #{$info-phone} {
         font-size: 1.2rem;
-
+      }
+      @media #{$info-phone-4} {
+        font-size: 1.1rem;
       }
     }
 
@@ -2189,6 +2229,7 @@ a:hover {
       height: auto;
       overflow-y: hidden;
       margin-bottom: 0;
+      letter-spacing: 0;
     }
     p {
       margin-bottom: 23px;

@@ -163,13 +163,14 @@ a:hover {
         bottom: 10px; } }
     .topBanner .bannerTextBlock .bannerText02 {
       text-align: center;
-      margin-bottom: 15px; }
+      margin-bottom: 8px;
+      font-weight: 700;
+      font-size: 2.25rem;
+      font-style: italic;
+      color: #fff; }
       @media only screen and (max-width: 767px) {
         .topBanner .bannerTextBlock .bannerText02 {
-          width: 51%;
-          margin-right: auto;
-          margin-left: auto;
-          margin-bottom: 12px; } }
+          font-size: 1.8rem; } }
     .topBanner .bannerTextBlock .bannerBtnBlock {
       display: -webkit-box;
       display: -moz-box;
@@ -222,6 +223,10 @@ a:hover {
             border-left: 5px solid transparent;
             border-right: 5px solid transparent;
             border-top: 6px solid #000; } }
+        @media only screen and (max-width: 320px) {
+          .topBanner .bannerTextBlock .bannerBtn:after {
+            bottom: 13px;
+            right: 8px; } }
       .topBanner .bannerTextBlock .bannerBtn .italic {
         font-style: italic;
         font-weight: 900; }
@@ -698,6 +703,9 @@ a:hover {
       @media only screen and (max-width: 767px) {
         .sectionDetail .sectionDetailHead .detailHeadText01 {
           margin-bottom: 0; } }
+      @media only screen and (max-width: 320px) {
+        .sectionDetail .sectionDetailHead .detailHeadText01 {
+          font-size: 1.4rem; } }
     .sectionDetail .sectionDetailHead .headCir02 {
       width: 85px;
       height: 85px;
@@ -910,6 +918,9 @@ a:hover {
             border-bottom: 10px solid transparent;
             border-left: 10px solid #fff;
             right: 15px; } }
+        @media only screen and (max-width: 320px) {
+          .sectionDetail .sectionDetailLinkWrap02 .detailBtn02:after {
+            right: 8px; } }
       .sectionDetail .sectionDetailLinkWrap02 .detailBtn02 .detailBtn02Cir {
         width: 58px;
         height: 58px;
@@ -966,6 +977,9 @@ a:hover {
             .sectionDetail .sectionDetailLinkWrap02 .detailBtn02.detailBtn02_02:after {
               border-left: 10px solid #000;
               right: 12px; } }
+          @media only screen and (max-width: 320px) {
+            .sectionDetail .sectionDetailLinkWrap02 .detailBtn02.detailBtn02_02:after {
+              right: 5px; } }
         .sectionDetail .sectionDetailLinkWrap02 .detailBtn02.detailBtn02_02 .detailBtn02Cir {
           color: #000;
           border: 5px solid #000; }
@@ -980,6 +994,9 @@ a:hover {
     @media only screen and (max-width: 767px) {
       .sectionDetail .sectionDetailText {
         font-size: 1.3rem; } }
+    @media only screen and (max-width: 320px) {
+      .sectionDetail .sectionDetailText {
+        font-size: 1.2rem; } }
   .sectionDetail .detailBtn03 {
     margin: 0 auto 30px;
     width: 81.9%;
@@ -1423,6 +1440,9 @@ a:hover {
       .snowPeak .modal-content {
         background-color: #fff;
         padding: 40px 24px 3px; } }
+    @media only screen and (max-width: 320px) {
+      .snowPeak .modal-content {
+        padding: 40px 10px 3px; } }
   .snowPeak .close {
     opacity: 1;
     top: 21px;
@@ -1469,6 +1489,9 @@ a:hover {
       @media only screen and (max-width: 767px) {
         .snowPeak h2 span {
           font-size: 2.9rem; } }
+      @media only screen and (max-width: 320px) {
+        .snowPeak h2 span {
+          font-size: 2.8rem; } }
       .snowPeak h2 span small {
         color: #000;
         display: block;
@@ -1559,6 +1582,9 @@ a:hover {
             border-bottom: 10px solid transparent;
             border-left: 10px solid #fff;
             right: 15px; } }
+        @media only screen and (max-width: 320px) {
+          .snowPeak .modalBtnWrap .detailBtn02:after {
+            right: 8px; } }
       .snowPeak .modalBtnWrap .detailBtn02 .detailBtn02Cir {
         font-size: 2.1rem;
         width: 50px;
@@ -1618,6 +1644,9 @@ a:hover {
             .snowPeak .modalBtnWrap .detailBtn02.detailBtn02_02:after {
               border-left: 10px solid #000;
               right: 12px; } }
+          @media only screen and (max-width: 320px) {
+            .snowPeak .modalBtnWrap .detailBtn02.detailBtn02_02:after {
+              right: 5px; } }
         .snowPeak .modalBtnWrap .detailBtn02.detailBtn02_02 .detailBtn02Cir {
           color: #000;
           border: 5px solid #000; }
@@ -1688,10 +1717,14 @@ a:hover {
       .questionForm .formBody {
         height: auto;
         font-size: 1rem;
-        overflow: hidden; } }
+        overflow: hidden;
+        letter-spacing: 0; } }
     .questionForm .formBody p {
       margin-bottom: 23px;
       margin-left: 17px; }
+      @media only screen and (max-width: 767px) {
+        .questionForm .formBody p {
+          margin-bottom: 10px; } }
       .questionForm .formBody p.bold {
         font-weight: 700;
         margin-bottom: 0;
@@ -1763,10 +1796,14 @@ a:hover {
       .frfForm .formBody {
         height: auto;
         font-size: 1rem;
-        overflow: hidden; } }
+        overflow: hidden;
+        letter-spacing: 0; } }
     .frfForm .formBody p {
       margin-bottom: 23px;
       margin-left: 17px; }
+      @media only screen and (max-width: 767px) {
+        .frfForm .formBody p {
+          margin-bottom: 10px; } }
       .frfForm .formBody p.bold {
         font-weight: 700;
         margin-bottom: 0;
@@ -1823,7 +1860,8 @@ a:hover {
         font-size: 1rem;
         height: auto;
         overflow-y: hidden;
-        margin-bottom: 0; } }
+        margin-bottom: 0;
+        letter-spacing: 0; } }
     .rulesForm .formBody p {
       margin-bottom: 23px;
       margin-left: 17px; }
@@ -1860,6 +1898,9 @@ a:hover {
       @media only screen and (max-width: 767px) {
         .rulesForm .formBtnWrap > p {
           font-size: 1.2rem; } }
+      @media only screen and (max-width: 320px) {
+        .rulesForm .formBtnWrap > p {
+          font-size: 1.1rem; } }
     .rulesForm .formBtnWrap .checkboxStyle {
       margin-bottom: 20px; }
       @media only screen and (max-width: 767px) {
@@ -2014,7 +2055,8 @@ a:hover {
         font-size: 1rem;
         height: auto;
         overflow-y: hidden;
-        margin-bottom: 0; } }
+        margin-bottom: 0;
+        letter-spacing: 0; } }
     .rulesRfrForm .formBody p {
       margin-bottom: 23px;
       margin-left: 17px; }
