@@ -258,7 +258,8 @@ a:hover {
               border-top: 6px solid #fff; } }
         .topBanner .bannerTextBlock .bannerBtn.bannerBtn02 .bannerBtn02Text01 {
           margin-top: -7px;
-          display: block; }
+          display: block;
+          color: #fff; }
         @media only screen and (max-width: 767px) {
           .topBanner .bannerTextBlock .bannerBtn.bannerBtn02 img {
             width: 48px;
@@ -794,8 +795,13 @@ a:hover {
             height: 36px;
             background-size: cover;
             right: inherit;
-            left: 5px;
-            transform: translateY(0);
+            left: 50%;
+            -webkit-transform: translate(-50%, 0);
+            -khtml-transform: translate(-50%, 0);
+            -moz-transform: translate(-50%, 0);
+            -ms-transform: translate(-50%, 0);
+            -o-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
             bottom: -38px;
             top: inherit; } }
       .sectionDetail .sectionDetailList li:last-child:after {
@@ -866,6 +872,10 @@ a:hover {
       .sectionDetail .sectionDetailLinkWrap02 {
         margin-left: 27px;
         margin-right: 27px; } }
+    @media only screen and (max-width: 320px) {
+      .sectionDetail .sectionDetailLinkWrap02 {
+        margin-left: 15px;
+        margin-right: 15px; } }
     .sectionDetail .sectionDetailLinkWrap02 .detailBtn02 {
       display: -webkit-box;
       display: -moz-box;
@@ -884,7 +894,7 @@ a:hover {
       position: relative;
       border-radius: 15px;
       margin: 0 7px; }
-      @media only screen and (max-width: 800px) {
+      @media only screen and (max-width: 1160px) {
         .sectionDetail .sectionDetailLinkWrap02 .detailBtn02 {
           margin: 0 0 20px; } }
       @media only screen and (max-width: 767px) {
@@ -946,9 +956,13 @@ a:hover {
         font-size: 1.625rem;
         line-height: 1.3;
         letter-spacing: -0.3px; }
+        @media only screen and (max-width: 1200px) {
+          .sectionDetail .sectionDetailLinkWrap02 .detailBtn02.detailBtn02_02 {
+            margin-left: 0; } }
         @media only screen and (max-width: 767px) {
           .sectionDetail .sectionDetailLinkWrap02 .detailBtn02.detailBtn02_02 {
-            border: 4px solid #000; } }
+            border: 4px solid #000;
+            margin-left: 0; } }
         @media only screen and (max-width: 320px) {
           .sectionDetail .sectionDetailLinkWrap02 .detailBtn02.detailBtn02_02 {
             font-size: 1.5rem; } }
@@ -1160,6 +1174,9 @@ a:hover {
         margin: 0 7px;
         border: 7px solid #000;
         padding: 69px 40px 35px; } }
+    @media only screen and (max-width: 320px) {
+      .sectionDetail .sectionDetailNews {
+        padding: 69px 30px 35px; } }
     .sectionDetail .sectionDetailNews .col_left, .sectionDetail .sectionDetailNews .col_right {
       width: 47%;
       display: -webkit-box;
@@ -1436,6 +1453,9 @@ a:hover {
     border-radius: 0;
     border: none;
     padding: 85px 30px 80px 40px; }
+    @media only screen and (max-width: 800px) {
+      .snowPeak .modal-content {
+        padding: 85px 20px 80px 20px; } }
     @media only screen and (max-width: 767px) {
       .snowPeak .modal-content {
         background-color: #fff;
@@ -1609,14 +1629,16 @@ a:hover {
         color: #000;
         font-size: 1.43rem;
         line-height: 1.3;
-        letter-spacing: -0.3px; }
+        letter-spacing: -0.3px;
+        margin-left: 10px; }
         @media only screen and (max-width: 800px) {
           .snowPeak .modalBtnWrap .detailBtn02.detailBtn02_02 {
             font-size: 1.23rem; } }
         @media only screen and (max-width: 767px) {
           .snowPeak .modalBtnWrap .detailBtn02.detailBtn02_02 {
             border: 4px solid #000;
-            font-size: 1.7rem; } }
+            font-size: 1.7rem;
+            margin-left: 0; } }
         @media only screen and (max-width: 320px) {
           .snowPeak .modalBtnWrap .detailBtn02.detailBtn02_02 {
             font-size: 1.4rem; } }
@@ -1709,7 +1731,7 @@ a:hover {
     font-weight: 400;
     font-size: 0.875rem;
     text-align: justify;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     padding-top: 30px;
     margin-bottom: 30px;
     padding-right: 8px; }
@@ -1788,7 +1810,7 @@ a:hover {
     font-weight: 400;
     font-size: 0.875rem;
     text-align: justify;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     padding-top: 30px;
     margin-bottom: 30px;
     padding-right: 8px; }
@@ -1851,7 +1873,7 @@ a:hover {
     font-weight: 400;
     font-size: 0.875rem;
     text-align: justify;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     padding-top: 30px;
     margin-bottom: 30px;
     padding-right: 8px; }
@@ -2046,7 +2068,7 @@ a:hover {
     font-weight: 400;
     font-size: 0.875rem;
     text-align: justify;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     padding-top: 30px;
     margin-bottom: 30px;
     padding-right: 8px; }
@@ -2168,14 +2190,16 @@ a:hover {
         color: #000;
         font-size: 1.43rem;
         line-height: 1.3;
-        letter-spacing: -0.3px; }
+        letter-spacing: -0.3px;
+        margin-left: 10px; }
         @media only screen and (max-width: 800px) {
           .rulesRfrForm .modalBtnWrap .detailBtn02.detailBtn02_02 {
             font-size: 1.23rem; } }
         @media only screen and (max-width: 767px) {
           .rulesRfrForm .modalBtnWrap .detailBtn02.detailBtn02_02 {
             border: 4px solid #000;
-            font-size: 1.7rem; } }
+            font-size: 1.7rem;
+            margin-left: 0; } }
         .rulesRfrForm .modalBtnWrap .detailBtn02.detailBtn02_02 small {
           font-size: 0.75rem;
           position: absolute;
@@ -2382,7 +2406,7 @@ iframe {
 .nativeAndroid .topBanner .bannerTextBlock .bannerBtn {
   align-items: center; }
   .nativeAndroid .topBanner .bannerTextBlock .bannerBtn .italic {
-    margin-top: 10px; }
+    margin-bottom: 5px; }
 .nativeAndroid .topBanner .bannerTextBlock .bannerBtn.bannerBtn02 .imgSp {
   margin-bottom: 5px;
   margin-top: -5px; }
@@ -2390,57 +2414,62 @@ iframe {
   margin-top: 20px; }
 .nativeAndroid .sectionTime .timeTour .tourBlock .tourCir {
   padding-top: 10px; }
-.nativeAndroid .sectionTime .timeBtnWrap .btnTerm {
-  padding-top: 7px; }
 .nativeAndroid .sectionInfo03 > img {
   margin-bottom: 15px; }
 .nativeAndroid .sectionDetail .sectionDetailList li {
   padding-bottom: 20px; }
 .nativeAndroid .sectionDetail .sectionDetailList li .liCir {
-  padding-top: 20px; }
+  padding-top: 0;
+  line-height: 1.3 !important; }
 .nativeAndroid .sectionDetail .sectionDetailTitle {
   margin-top: 20px; }
-.nativeAndroid .sectionDetail .sectionDetailLinkWrap .detailBtn {
-  padding-top: 15px; }
-.nativeAndroid .sectionDetail .sectionDetailLinkWrap02 .detailBtn02 .detailBtn02Cir {
-  padding-top: 10px; }
 .nativeAndroid .sectionDetail .sectionDetailLinkWrap02 .detailBtn02 {
   padding-top: 25px;
-  font-size: 1.7rem; }
+  font-size: 1.6rem; }
+  .nativeAndroid .sectionDetail .sectionDetailLinkWrap02 .detailBtn02 > span {
+    margin-top: -18px;
+    display: block; }
   .nativeAndroid .sectionDetail .sectionDetailLinkWrap02 .detailBtn02 .detailBtn02Cir {
     margin-right: 5px;
     margin-top: -25px; }
+.nativeAndroid .sectionDetail .sectionDetailLinkWrap02 .detailBtn02.detailBtn02_02 {
+  padding-top: 10px; }
 .nativeAndroid .sectionDetail .sectionDetailLinkWrap02 .detailBtn02.detailBtn02_02 small {
   font-size: 0.8rem;
   bottom: 0; }
-.nativeAndroid .sectionDetail .detailBtn03.visible-xs {
-  padding-top: 10px; }
 .nativeAndroid .sectionDetail .detailBtn04 {
   padding-top: 10px; }
-.nativeAndroid .sectionDetail .sectionDetailHead .headCir {
-  padding-top: 15px; }
 .nativeAndroid .tourBlockModal h2 {
   margin-top: 20px; }
-.nativeAndroid .tourBlockModal .modalBtn {
-  padding-top: 7px; }
-.nativeAndroid .rulesForm .formBtn {
-  padding-top: 7px; }
 .nativeAndroid .snowPeak h2 {
   margin-top: 15px; }
   .nativeAndroid .snowPeak h2 > span {
     margin-top: 10px; }
 .nativeAndroid .snowPeak .modalBtnWrap .detailBtn02 {
   font-size: 1.5rem;
-  padding-top: 25px; }
+  padding-top: 30px; }
+  .nativeAndroid .snowPeak .modalBtnWrap .detailBtn02 > span {
+    margin-top: -20px;
+    display: block; }
   .nativeAndroid .snowPeak .modalBtnWrap .detailBtn02 .detailBtn02Cir {
-    margin-top: -25px;
-    padding-top: 8px; }
+    margin-top: -25px; }
+.nativeAndroid .snowPeak .modalBtnWrap .detailBtn02.detailBtn02_02 .detailBtn02_02Text {
+  margin-top: -20px; }
 .nativeAndroid .rulesRfrForm .modalBtnWrap .detailBtn02 {
   font-size: 1.5rem;
-  padding-top: 25px; }
+  padding-top: 30px; }
+  .nativeAndroid .rulesRfrForm .modalBtnWrap .detailBtn02 > span {
+    margin-top: -20px;
+    display: block; }
   .nativeAndroid .rulesRfrForm .modalBtnWrap .detailBtn02 .detailBtn02Cir {
-    margin-top: -25px;
-    padding-top: 8px; }
+    margin-top: -25px; }
+.nativeAndroid .rulesRfrForm .modalBtnWrap .detailBtn02.detailBtn02_02 .detailBtn02_02Text {
+  margin-top: -20px; }
+.nativeAndroid .frfForm .modal-body {
+  padding-left: 5px;
+  padding-right: 5px; }
+.nativeAndroid .tourBlockModal .modal-content {
+  padding: 47px 15px 27px; }
 
 body.ie .sectionDetail .sectionDetailNews .col_left, body.ie .sectionDetail .sectionDetailNews .col_right {
   display: block; }
@@ -2552,7 +2581,11 @@ body.ie9 .sectionDetail .sectionDetailList {
           -o-transform: translateX(-50%);
           transform: translateX(-50%); } }
     body.ie9 .sectionDetail .sectionDetailList li .liCir {
-      float: left; }
+      float: left;
+      line-height: 50px; }
+      @media only screen and (max-width: 767px) {
+        body.ie9 .sectionDetail .sectionDetailList li .liCir {
+          line-height: 34px; } }
 body.ie9 .sectionDetail .sectionDetailLinkWrap02 {
   display: table;
   margin-right: auto;
